@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Element" time="40.268" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite Element" tests="3" failures="0" errors="0" time="40.268" skipped="0" timestamp="14-06-2025T00:43:04" hostname="ACER - DESKTOP-JTI6TQ0" id="Test Suites/Test Suite Element">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251"/>
+         <property name="logFiles" value="F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\execution0.log"/>
+         <property name="attachments" value="F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836612654.png, F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836616377.png, F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836622662.png, F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836624087.png"/>
+         <property name="hostName" value="ACER - DESKTOP-JTI6TQ0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 137.0.0.0"/>
+         <property name="hostAddress" value="192.168.219.10"/>
+         <property name="sessionId" value="37b2bc7f8525bb1fa5fb3ffdf9444645"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Webtables/Element/Text Box" time="28.281" classname="Test Cases/Webtables/Element/Text Box" status="PASSED">
+         <system-out><![CDATA[14-06-2025T00:43:05 - [TEST_CASE][PASSED] - Test Cases/Webtables/Element/Text Box: Test Cases/Webtables/Element/Text Box
+
+14-06-2025T00:43:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2025T00:43:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T00:43:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T00:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2025T00:43:12 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-06-2025T00:43:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-06-2025T00:43:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T00:43:18 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T00:43:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Webtables/Elements/toolsQA"), 0): Object 'Object Repository/Webtables/Elements/toolsQA' is visible
+
+14-06-2025T00:43:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/toolsQA' is visible
+
+14-06-2025T00:43:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/toolsQA")): Object 'Object Repository/Webtables/Elements/toolsQA' is visible
+
+14-06-2025T00:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/toolsQA' is visible
+
+14-06-2025T00:43:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/element"), 0): Scroll to object 'Object Repository/Webtables/Elements/element' successfully
+
+14-06-2025T00:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/element' successfully
+
+14-06-2025T00:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/element")): Object: 'Object Repository/Webtables/Elements/element' is clicked on
+
+14-06-2025T00:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/element' is clicked on
+
+14-06-2025T00:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Text Box/textbox")): Object: 'Object Repository/Webtables/Elements/Text Box/textbox' is clicked on
+
+14-06-2025T00:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Text Box/textbox' is clicked on
+
+14-06-2025T00:43:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Text Box/text_textbox"), "Text Box"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Text Box/text_textbox' are matched.
+
+14-06-2025T00:43:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Text Box/text_textbox' are matched.
+
+14-06-2025T00:43:25 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_fullName"), "Testing automation"): Text 'Testing automation' is set on object 'Object Repository/Webtables/Elements/Text Box/input_fullName'
+
+14-06-2025T00:43:28 - [MESSAGE][PASSED] - Text 'Testing automation' is set on object 'Object Repository/Webtables/Elements/Text Box/input_fullName'
+
+14-06-2025T00:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_email"), "testingautomation@gmail.com"): Text 'testingautomation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Text Box/input_email'
+
+14-06-2025T00:43:28 - [MESSAGE][PASSED] - Text 'testingautomation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Text Box/input_email'
+
+14-06-2025T00:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_currentAddress"), "Jakarta selatan"): Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_currentAddress'
+
+14-06-2025T00:43:29 - [MESSAGE][PASSED] - Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_currentAddress'
+
+14-06-2025T00:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_permanentAddress"), "Jakarta selatan"): Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_permanentAddress'
+
+14-06-2025T00:43:30 - [MESSAGE][PASSED] - Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_permanentAddress'
+
+14-06-2025T00:43:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Text Box/button_submit"), 0): Scroll to object 'Object Repository/Webtables/Elements/Text Box/button_submit' successfully
+
+14-06-2025T00:43:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Text Box/button_submit' successfully
+
+14-06-2025T00:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Text Box/button_submit")): Object: 'Object Repository/Webtables/Elements/Text Box/button_submit' is clicked on
+
+14-06-2025T00:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Text Box/button_submit' is clicked on
+
+14-06-2025T00:43:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-06-2025T00:43:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836612654.png]]
+
+14-06-2025T00:43:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Text Box/verify_output")): Object 'Object Repository/Webtables/Elements/Text Box/verify_output' is visible
+
+14-06-2025T00:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Text Box/verify_output' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Element/Check Box" time="3.508" classname="Test Cases/Webtables/Element/Check Box" status="PASSED">
+         <system-out><![CDATA[14-06-2025T00:43:33 - [TEST_CASE][PASSED] - Test Cases/Webtables/Element/Check Box: Test Cases/Webtables/Element/Check Box
+
+14-06-2025T00:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/checkbox")): Object: 'Object Repository/Webtables/Elements/Check Box/checkbox' is clicked on
+
+14-06-2025T00:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/checkbox' is clicked on
+
+14-06-2025T00:43:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Check Box/text_checkbox"), "Check Box"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Check Box/text_checkbox' are matched.
+
+14-06-2025T00:43:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Check Box/text_checkbox' are matched.
+
+14-06-2025T00:43:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Check Box/expand_plus"), 0): Scroll to object 'Object Repository/Webtables/Elements/Check Box/expand_plus' successfully
+
+14-06-2025T00:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Check Box/expand_plus' successfully
+
+14-06-2025T00:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/expand_plus")): Object: 'Object Repository/Webtables/Elements/Check Box/expand_plus' is clicked on
+
+14-06-2025T00:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/expand_plus' is clicked on
+
+14-06-2025T00:43:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Check Box/checkbox_documents"), 0): Scroll to object 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' successfully
+
+14-06-2025T00:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' successfully
+
+14-06-2025T00:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/checkbox_documents")): Object: 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' is clicked on
+
+14-06-2025T00:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' is clicked on
+
+14-06-2025T00:43:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-06-2025T00:43:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836616377.png]]
+
+14-06-2025T00:43:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Check Box/verify_output")): Object 'Object Repository/Webtables/Elements/Check Box/verify_output' is visible
+
+14-06-2025T00:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Check Box/verify_output' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Element/Radio Button" time="7.733" classname="Test Cases/Webtables/Element/Radio Button" status="PASSED">
+         <system-out><![CDATA[14-06-2025T00:43:36 - [TEST_CASE][PASSED] - Test Cases/Webtables/Element/Radio Button: Test Cases/Webtables/Element/Radio Button
+
+14-06-2025T00:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton' is clicked on
+
+14-06-2025T00:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton' is clicked on
+
+14-06-2025T00:43:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Radio Button/text_radiobutton"), "Radio Button"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Radio Button/text_radiobutton' are matched.
+
+14-06-2025T00:43:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Radio Button/text_radiobutton' are matched.
+
+14-06-2025T00:43:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes"), 0): Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' successfully
+
+14-06-2025T00:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-06-2025T00:43:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' successfully
+
+14-06-2025T00:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' is clicked on
+
+14-06-2025T00:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' is clicked on
+
+14-06-2025T00:43:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/verify_outputSukses")): Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+14-06-2025T00:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+14-06-2025T00:43:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-06-2025T00:43:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836622662.png]]
+
+14-06-2025T00:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton_impressiveRadio")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is clicked on
+
+14-06-2025T00:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is clicked on
+
+14-06-2025T00:43:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/radiobutton_impressiveRadio")): Object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is visible
+
+14-06-2025T00:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is visible
+
+14-06-2025T00:43:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-06-2025T00:43:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\KATALON\\Tugas Akhir Asep Lamri\\Reports\\20250614_004251\\Test Suite Element\\20250614_004251\\1749836624087.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T00:43:04 - [TEST_SUITE][PASSED] - Test Suite Element: Test Cases/Webtables/Element/Radio Button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

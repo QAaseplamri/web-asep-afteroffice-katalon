@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Element,Chrome 137.0.0.0,,,14-06-2025 00:43:04,14-06-2025 00:43:44,40.268s,PASSED
+,,,,,,,
+Test Cases/Webtables/Element/Text Box,Chrome 137.0.0.0,,,14-06-2025 00:43:05,14-06-2025 00:43:33,28.281s,PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,14-06-2025 00:43:06,14-06-2025 00:43:12,6.384s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 137.0.0.0,,,14-06-2025 00:43:12,14-06-2025 00:43:13,0.880s,PASSED
+maximizeWindow(),Chrome 137.0.0.0,,,14-06-2025 00:43:13,14-06-2025 00:43:18,5.164s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/Elements/toolsQA""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:18,14-06-2025 00:43:20,2.009s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/toolsQA""))",Chrome 137.0.0.0,,,14-06-2025 00:43:20,14-06-2025 00:43:21,0.185s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/element""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:21,14-06-2025 00:43:21,0.181s,PASSED
+"click(findTestObject(""Webtables/Elements/element""))",Chrome 137.0.0.0,,,14-06-2025 00:43:21,14-06-2025 00:43:21,0.667s,PASSED
+"click(findTestObject(""Webtables/Elements/Text Box/textbox""))",Chrome 137.0.0.0,,,14-06-2025 00:43:21,14-06-2025 00:43:24,2.161s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Text Box/text_textbox""), ""Text Box"")",Chrome 137.0.0.0,,,14-06-2025 00:43:24,14-06-2025 00:43:25,1.061s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_fullName""), ""Testing automation"")",Chrome 137.0.0.0,,,14-06-2025 00:43:25,14-06-2025 00:43:28,3.274s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_email""), ""testingautomation@gmail.com"")",Chrome 137.0.0.0,,,14-06-2025 00:43:28,14-06-2025 00:43:28,0.619s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_currentAddress""), ""Jakarta selatan"")",Chrome 137.0.0.0,,,14-06-2025 00:43:28,14-06-2025 00:43:29,0.555s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_permanentAddress""), ""Jakarta selatan"")",Chrome 137.0.0.0,,,14-06-2025 00:43:29,14-06-2025 00:43:30,0.793s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Text Box/button_submit""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:30,14-06-2025 00:43:30,0.485s,PASSED
+"click(findTestObject(""Webtables/Elements/Text Box/button_submit""))",Chrome 137.0.0.0,,,14-06-2025 00:43:30,14-06-2025 00:43:31,0.878s,PASSED
+takeScreenshot(),Chrome 137.0.0.0,,,14-06-2025 00:43:31,14-06-2025 00:43:33,1.587s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Text Box/verify_output""))",Chrome 137.0.0.0,,,14-06-2025 00:43:33,14-06-2025 00:43:33,0.166s,PASSED
+,,,,,,,
+Test Cases/Webtables/Element/Check Box,Chrome 137.0.0.0,,,14-06-2025 00:43:33,14-06-2025 00:43:36,3.508s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/checkbox""))",Chrome 137.0.0.0,,,14-06-2025 00:43:34,14-06-2025 00:43:35,0.647s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Check Box/text_checkbox""), ""Check Box"")",Chrome 137.0.0.0,,,14-06-2025 00:43:35,14-06-2025 00:43:35,0.232s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Check Box/expand_plus""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:35,14-06-2025 00:43:35,0.137s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/expand_plus""))",Chrome 137.0.0.0,,,14-06-2025 00:43:35,14-06-2025 00:43:35,0.452s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Check Box/checkbox_documents""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:35,14-06-2025 00:43:36,0.220s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/checkbox_documents""))",Chrome 137.0.0.0,,,14-06-2025 00:43:36,14-06-2025 00:43:36,0.246s,PASSED
+takeScreenshot(),Chrome 137.0.0.0,,,14-06-2025 00:43:36,14-06-2025 00:43:36,0.449s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Check Box/verify_output""))",Chrome 137.0.0.0,,,14-06-2025 00:43:36,14-06-2025 00:43:36,0.175s,PASSED
+,,,,,,,
+Test Cases/Webtables/Element/Radio Button,Chrome 137.0.0.0,,,14-06-2025 00:43:36,14-06-2025 00:43:44,7.733s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton""))",Chrome 137.0.0.0,,,14-06-2025 00:43:37,14-06-2025 00:43:37,0.322s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Radio Button/text_radiobutton""), ""Radio Button"")",Chrome 137.0.0.0,,,14-06-2025 00:43:37,14-06-2025 00:43:37,0.271s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Radio Button/radiobutton_yes""), 0)",Chrome 137.0.0.0,,,14-06-2025 00:43:37,14-06-2025 00:43:38,0.090s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton_yes""))",Chrome 137.0.0.0,,,14-06-2025 00:43:38,14-06-2025 00:43:40,2.088s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Radio Button/verify_outputSukses""))",Chrome 137.0.0.0,,,14-06-2025 00:43:40,14-06-2025 00:43:40,0.152s,PASSED
+takeScreenshot(),Chrome 137.0.0.0,,,14-06-2025 00:43:40,14-06-2025 00:43:43,3.064s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton_impressiveRadio""))",Chrome 137.0.0.0,,,14-06-2025 00:43:43,14-06-2025 00:43:43,0.396s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Radio Button/radiobutton_impressiveRadio""))",Chrome 137.0.0.0,,,14-06-2025 00:43:43,14-06-2025 00:43:44,0.267s,PASSED
+takeScreenshot(),Chrome 137.0.0.0,,,14-06-2025 00:43:44,14-06-2025 00:43:44,0.666s,PASSED
