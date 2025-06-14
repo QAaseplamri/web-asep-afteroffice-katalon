@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>input_age</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>9d178d02-bf92-49e7-9810-fa17b76f790a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;text-right col-md-2 col-sm-12&quot;]//button[@id=&quot;submit&quot;]</value>
+         <value>//*[@id=&quot;age&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

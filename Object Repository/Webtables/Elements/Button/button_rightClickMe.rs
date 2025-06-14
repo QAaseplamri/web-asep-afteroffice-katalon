@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>button_rightClickMe</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>08cf753e-98c5-4638-8fff-7b72fe8a7d56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;text-right col-md-2 col-sm-12&quot;]//button[@id=&quot;submit&quot;]</value>
+         <value>//*[@id=&quot;rightClickBtn&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

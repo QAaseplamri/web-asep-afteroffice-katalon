@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>links_forbidden</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>bfa1c728-d6ae-4de9-807e-939b427d50cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;text-right col-md-2 col-sm-12&quot;]//button[@id=&quot;submit&quot;]</value>
+         <value>//*[@id=&quot;forbidden&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

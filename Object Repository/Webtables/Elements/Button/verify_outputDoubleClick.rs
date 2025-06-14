@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>verify_outputDoubleClick</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>f57f09fb-7053-46af-abec-8db322b260ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;text-right col-md-2 col-sm-12&quot;]//button[@id=&quot;submit&quot;]</value>
+         <value>//*[@id=&quot;doubleClickMessage&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

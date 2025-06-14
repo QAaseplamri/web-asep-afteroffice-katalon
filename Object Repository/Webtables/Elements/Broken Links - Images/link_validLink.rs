@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>link_validLink</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>c5cbc90d-e945-48de-ad55-ab4e33cc65ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;text-right col-md-2 col-sm-12&quot;]//button[@id=&quot;submit&quot;]</value>
+         <value>//p[normalize-space(text())='Valid Link']/following-sibling::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

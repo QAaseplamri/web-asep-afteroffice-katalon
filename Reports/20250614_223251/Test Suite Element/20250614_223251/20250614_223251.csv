@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Element,Chrome 137.0.7151.70,,,14-06-2025 22:33:18,14-06-2025 22:35:22,2m - 4.579s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Text Box,Chrome 137.0.7151.70,,,14-06-2025 22:33:20,14-06-2025 22:34:07,46.032s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.70,,,14-06-2025 22:33:22,14-06-2025 22:33:33,10.519s,PASSED
+navigateToUrl(url),Chrome 137.0.7151.70,,,14-06-2025 22:33:33,14-06-2025 22:33:43,10.123s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 22:33:43,14-06-2025 22:33:44,0.552s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/Elements/toolsQA""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:33:44,14-06-2025 22:33:45,1.877s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/toolsQA""))",Chrome 137.0.7151.70,,,14-06-2025 22:33:45,14-06-2025 22:33:46,0.333s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/element""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:33:46,14-06-2025 22:33:46,0.389s,PASSED
+"click(findTestObject(""Webtables/Elements/element""))",Chrome 137.0.7151.70,,,14-06-2025 22:33:46,14-06-2025 22:33:47,1.095s,PASSED
+"click(findTestObject(""Webtables/Elements/Text Box/textbox""))",Chrome 137.0.7151.70,,,14-06-2025 22:33:47,14-06-2025 22:33:53,6.256s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Text Box/text_textbox""), ""Text Box"")",Chrome 137.0.7151.70,,,14-06-2025 22:33:54,14-06-2025 22:33:54,0.904s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_fullName""), ""Testing automation"")",Chrome 137.0.7151.70,,,14-06-2025 22:33:54,14-06-2025 22:33:56,1.278s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_email""), ""testingautomation@gmail.com"")",Chrome 137.0.7151.70,,,14-06-2025 22:33:56,14-06-2025 22:33:57,1.342s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_currentAddress""), ""Jakarta selatan"")",Chrome 137.0.7151.70,,,14-06-2025 22:33:57,14-06-2025 22:34:03,5.964s,PASSED
+"setText(findTestObject(""Webtables/Elements/Text Box/input_permanentAddress""), ""Jakarta selatan"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:03,14-06-2025 22:34:04,1.078s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Text Box/button_submit""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:04,14-06-2025 22:34:05,0.442s,PASSED
+"click(findTestObject(""Webtables/Elements/Text Box/button_submit""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:05,14-06-2025 22:34:05,0.628s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:05,14-06-2025 22:34:06,0.936s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Text Box/verify_output""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:06,14-06-2025 22:34:07,0.419s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Check Box,Chrome 137.0.7151.70,,,14-06-2025 22:34:07,14-06-2025 22:34:13,6.573s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Check Box/checkbox""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:07,14-06-2025 22:34:07,0.446s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/checkbox""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:07,14-06-2025 22:34:08,0.833s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Check Box/text_checkbox""), ""Check Box"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:08,14-06-2025 22:34:09,1.043s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Check Box/expand_plus""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:09,14-06-2025 22:34:10,0.393s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/expand_plus""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:10,14-06-2025 22:34:10,0.605s,PASSED
+"click(findTestObject(""Webtables/Elements/Check Box/checkbox_documents""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:10,14-06-2025 22:34:11,0.773s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Check Box/verify_output""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:11,14-06-2025 22:34:12,1.155s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Check Box/verify_output""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:12,14-06-2025 22:34:13,0.308s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:13,14-06-2025 22:34:13,0.489s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Radio Button,Chrome 137.0.7151.70,,,14-06-2025 22:34:13,14-06-2025 22:34:21,7.897s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Radio Button/radiobutton""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:16,14-06-2025 22:34:16,0.495s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:17,14-06-2025 22:34:17,0.587s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Radio Button/text_radiobutton""), ""Radio Button"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:17,14-06-2025 22:34:18,0.441s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Radio Button/radiobutton_yes""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:18,14-06-2025 22:34:18,0.425s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton_yes""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:18,14-06-2025 22:34:18,0.462s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Radio Button/verify_outputSukses""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:18,14-06-2025 22:34:19,0.471s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:19,14-06-2025 22:34:19,0.562s,PASSED
+"click(findTestObject(""Webtables/Elements/Radio Button/radiobutton_impressiveRadio""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:19,14-06-2025 22:34:20,0.500s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Radio Button/verify_outputSukses""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:20,14-06-2025 22:34:20,0.347s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:20,14-06-2025 22:34:21,0.693s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Web Tables,Chrome 137.0.7151.70,,,14-06-2025 22:34:21,14-06-2025 22:34:32,11.424s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Web Tables/webtables""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:22,14-06-2025 22:34:22,0.524s,PASSED
+"click(findTestObject(""Webtables/Elements/Web Tables/webtables""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:22,14-06-2025 22:34:23,0.478s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Web Tables/text_webTables""), ""Web Tables"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:23,14-06-2025 22:34:23,0.514s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Web Tables/button_add""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:23,14-06-2025 22:34:23,0.380s,PASSED
+"click(findTestObject(""Webtables/Elements/Web Tables/button_add""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:23,14-06-2025 22:34:24,0.508s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_firstName""), ""Testing"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:24,14-06-2025 22:34:25,0.976s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_lastName""), ""Automation"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:25,14-06-2025 22:34:26,0.831s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_email""), ""automation@gmail.com"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:26,14-06-2025 22:34:27,0.890s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_age""), ""25"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:27,14-06-2025 22:34:27,0.832s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_salary""), ""10000000"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:27,14-06-2025 22:34:28,0.806s,PASSED
+"setText(findTestObject(""Webtables/Elements/Web Tables/input_department""), ""IT"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:28,14-06-2025 22:34:30,1.325s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Web Tables/button_submit""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:30,14-06-2025 22:34:30,0.363s,PASSED
+"click(findTestObject(""Webtables/Elements/Web Tables/button_submit""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:30,14-06-2025 22:34:30,0.451s,PASSED
+"clearText(findTestObject(""Webtables/Elements/Web Tables/input_search""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:34:30,14-06-2025 22:34:31,0.465s,PASSED
+"sendKeys(findTestObject(""Webtables/Elements/Web Tables/input_search""), Keys.chord(""Automation"", ENTER))",Chrome 137.0.7151.70,,,14-06-2025 22:34:31,14-06-2025 22:34:32,0.666s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:32,14-06-2025 22:34:32,0.611s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Web Tables/verify_output""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:32,14-06-2025 22:34:32,0.338s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Button,Chrome 137.0.7151.70,,,14-06-2025 22:34:33,14-06-2025 22:34:38,5.134s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Button/button""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:33,14-06-2025 22:34:33,0.344s,PASSED
+"click(findTestObject(""Webtables/Elements/Button/button""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:33,14-06-2025 22:34:34,0.433s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Button/text_button""), ""Buttons"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:34,14-06-2025 22:34:34,0.442s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Button/button_doubleClickMe""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:34,14-06-2025 22:34:34,0.335s,PASSED
+"doubleClick(findTestObject(""Webtables/Elements/Button/button_doubleClickMe""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:34,14-06-2025 22:34:35,0.512s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Button/verify_outputDoubleClick""), ""You have done a double click"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:35,14-06-2025 22:34:35,0.442s,PASSED
+"rightClick(findTestObject(""Webtables/Elements/Button/button_rightClickMe""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:35,14-06-2025 22:34:36,0.444s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Button/verify_outputRightClick""), ""You have done a right click"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:36,14-06-2025 22:34:36,0.494s,PASSED
+"click(findTestObject(""Webtables/Elements/Button/button_clickMe""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:36,14-06-2025 22:34:37,0.421s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Button/verify_outputClick""), ""You have done a dynamic click"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:37,14-06-2025 22:34:37,0.458s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:37,14-06-2025 22:34:38,0.544s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Links,Chrome 137.0.7151.70,,,14-06-2025 22:34:38,14-06-2025 22:35:05,26.862s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Links/links""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:38,14-06-2025 22:34:39,0.338s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:39,14-06-2025 22:34:39,0.438s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/text_links""), ""Links"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:39,14-06-2025 22:34:40,0.514s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Links/links_home""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:40,14-06-2025 22:34:40,0.446s,PASSED
+"link = findTestObject(""Webtables/Elements/Links/links_home"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:40,14-06-2025 22:34:40,0.012s,PASSED
+"element = findWebElement(link, 10)",Chrome 137.0.7151.70,,,14-06-2025 22:34:40,14-06-2025 22:34:40,0.287s,PASSED
+action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()),Chrome 137.0.7151.70,,,14-06-2025 22:34:40,14-06-2025 22:34:40,0.028s,PASSED
+build().perform(),Chrome 137.0.7151.70,,,14-06-2025 22:34:40,14-06-2025 22:34:41,0.373s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.70,,,14-06-2025 22:34:41,14-06-2025 22:34:41,0.006s,PASSED
+tabs = new java.util.ArrayList(driver.getWindowHandles()),Chrome 137.0.7151.70,,,14-06-2025 22:34:41,14-06-2025 22:34:41,0.329s,PASSED
+switchTo().window(tabs[1]),Chrome 137.0.7151.70,,,14-06-2025 22:34:41,14-06-2025 22:34:41,0.213s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Links/verify_outputLinkHome""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:41,14-06-2025 22:34:45,3.994s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Links/verify_outputLinkHome""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:34:45,14-06-2025 22:34:46,0.290s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:46,14-06-2025 22:34:46,0.435s,PASSED
+driver.close(),Chrome 137.0.7151.70,,,14-06-2025 22:34:46,14-06-2025 22:34:46,0.179s,PASSED
+switchTo().window(tabs[0]),Chrome 137.0.7151.70,,,14-06-2025 22:34:46,14-06-2025 22:34:46,0.022s,PASSED
+"link1 = findTestObject(""Webtables/Elements/Links/links_homeDynamic"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:46,14-06-2025 22:34:47,0.579s,PASSED
+"element1 = findWebElement(link1, 10)",Chrome 137.0.7151.70,,,14-06-2025 22:34:47,14-06-2025 22:34:47,0.317s,PASSED
+build().perform(),Chrome 137.0.7151.70,,,14-06-2025 22:34:47,14-06-2025 22:34:47,0.196s,PASSED
+tabs1 = new java.util.ArrayList(driver.getWindowHandles()),Chrome 137.0.7151.70,,,14-06-2025 22:34:47,14-06-2025 22:34:47,0.077s,PASSED
+switchTo().window(tabs1[1]),Chrome 137.0.7151.70,,,14-06-2025 22:34:47,14-06-2025 22:34:48,0.200s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Links/verify_outputLinkHome""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:48,14-06-2025 22:34:53,5.486s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Links/verify_outputLinkHome""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:34:53,14-06-2025 22:34:53,0.310s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:53,14-06-2025 22:34:54,0.443s,PASSED
+driver.close(),Chrome 137.0.7151.70,,,14-06-2025 22:34:54,14-06-2025 22:34:54,0.207s,PASSED
+switchTo().window(tabs[0]),Chrome 137.0.7151.70,,,14-06-2025 22:34:54,14-06-2025 22:34:54,0.100s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Links/links_created""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:34:54,14-06-2025 22:34:54,0.355s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_created""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:54,14-06-2025 22:34:55,0.426s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 201 and status text Created"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:55,14-06-2025 22:34:56,0.740s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:56,14-06-2025 22:34:56,0.541s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_noContent""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:56,14-06-2025 22:34:57,0.551s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 204 and status text No Content"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:57,14-06-2025 22:34:57,0.512s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:57,14-06-2025 22:34:58,0.466s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_moved""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:58,14-06-2025 22:34:58,0.427s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 301 and status text Moved Permanently"")",Chrome 137.0.7151.70,,,14-06-2025 22:34:58,14-06-2025 22:34:59,0.417s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:34:59,14-06-2025 22:34:59,0.544s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_badRequest""))",Chrome 137.0.7151.70,,,14-06-2025 22:34:59,14-06-2025 22:35:00,0.454s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 400 and status text Bad Request"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:00,14-06-2025 22:35:00,0.378s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:00,14-06-2025 22:35:00,0.555s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_unauthorized""))",Chrome 137.0.7151.70,,,14-06-2025 22:35:00,14-06-2025 22:35:01,0.462s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 401 and status text Unauthorized"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:01,14-06-2025 22:35:01,0.419s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:01,14-06-2025 22:35:02,0.508s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_forbidden""))",Chrome 137.0.7151.70,,,14-06-2025 22:35:02,14-06-2025 22:35:02,0.414s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 403 and status text Forbidden"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:02,14-06-2025 22:35:03,0.390s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:03,14-06-2025 22:35:03,0.506s,PASSED
+"click(findTestObject(""Webtables/Elements/Links/links_notFound""))",Chrome 137.0.7151.70,,,14-06-2025 22:35:03,14-06-2025 22:35:04,0.459s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Links/verify_response""), ""Link has responded with staus 404 and status text Not Found"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:04,14-06-2025 22:35:04,0.499s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:04,14-06-2025 22:35:05,0.448s,PASSED
+,,,,,,,
+Test Cases/Webtables/Elements/Broken Links - Images,Chrome 137.0.7151.70,,,14-06-2025 22:35:05,14-06-2025 22:35:21,16.293s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Broken Links - Images/brokenLinksImages""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:05,14-06-2025 22:35:05,0.403s,PASSED
+"click(findTestObject(""Webtables/Elements/Broken Links - Images/brokenLinksImages""))",Chrome 137.0.7151.70,,,14-06-2025 22:35:05,14-06-2025 22:35:06,0.444s,PASSED
+"verifyElementText(findTestObject(""Webtables/Elements/Broken Links - Images/text_brokenLinksImages""), ""Broken Links - Images"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:06,14-06-2025 22:35:06,0.467s,PASSED
+"scrollToElement(findTestObject(""Webtables/Elements/Broken Links - Images/img_validImage""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:06,14-06-2025 22:35:07,0.332s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Broken Links - Images/img_validImage""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:07,14-06-2025 22:35:07,0.281s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Broken Links - Images/img_validImage""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:35:07,14-06-2025 22:35:07,0.277s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Broken Links - Images/img_brokenImage""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:07,14-06-2025 22:35:08,0.305s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Broken Links - Images/img_brokenImage""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.294s,PASSED
+"link = findTestObject(""Webtables/Elements/Broken Links - Images/link_validLink"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.034s,PASSED
+"element = findWebElement(link, 10)",Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.283s,PASSED
+action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()),Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.005s,PASSED
+build().perform(),Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.288s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:08,0.004s,PASSED
+tabs = new java.util.ArrayList(driver.getWindowHandles()),Chrome 137.0.7151.70,,,14-06-2025 22:35:08,14-06-2025 22:35:09,0.732s,PASSED
+switchTo().window(tabs[1]),Chrome 137.0.7151.70,,,14-06-2025 22:35:09,14-06-2025 22:35:09,0.079s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Broken Links - Images/verify_outputLinkValid""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:09,14-06-2025 22:35:12,2.731s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Broken Links - Images/verify_outputLinkValid""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:35:12,14-06-2025 22:35:14,1.526s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:14,14-06-2025 22:35:14,0.575s,PASSED
+driver.close(),Chrome 137.0.7151.70,,,14-06-2025 22:35:14,14-06-2025 22:35:14,0.251s,PASSED
+switchTo().window(tabs[0]),Chrome 137.0.7151.70,,,14-06-2025 22:35:14,14-06-2025 22:35:15,0.151s,PASSED
+"link1 = findTestObject(""Webtables/Elements/Broken Links - Images/link_brokenLink"")",Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:15,0.033s,PASSED
+"element1 = findWebElement(link1, 10)",Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:15,0.329s,PASSED
+build().perform(),Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:15,0.254s,PASSED
+tabs1 = new java.util.ArrayList(driver.getWindowHandles()),Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:15,0.217s,PASSED
+switchTo().window(tabs1[1]),Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:15,0.093s,PASSED
+"waitForElementPresent(findTestObject(""Webtables/Elements/Broken Links - Images/verify_outputBrokenLink""), 0)",Chrome 137.0.7151.70,,,14-06-2025 22:35:15,14-06-2025 22:35:20,4.526s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Elements/Broken Links - Images/verify_outputBrokenLink""), STOP_ON_FAILURE)",Chrome 137.0.7151.70,,,14-06-2025 22:35:20,14-06-2025 22:35:20,0.321s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,14-06-2025 22:35:20,14-06-2025 22:35:21,0.365s,PASSED
+driver.close(),Chrome 137.0.7151.70,,,14-06-2025 22:35:21,14-06-2025 22:35:21,0.112s,PASSED
+switchTo().window(tabs[0]),Chrome 137.0.7151.70,,,14-06-2025 22:35:21,14-06-2025 22:35:21,0.089s,PASSED

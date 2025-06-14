@@ -12,24 +12,52 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>1642db0f-26b2-47cc-9dab-a26f45c76ed5</testSuiteGuid>
    <testCaseLink>
-      <guid>3fd87e5b-f7b7-46cc-b53b-4e2f5eb62c51</guid>
+      <guid>fa895d32-8857-4556-bcfa-ac7914cacd3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Webtables/Element/Text Box</testCaseId>
+      <testCaseId>Test Cases/Webtables/Elements/Text Box</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3222a43f-3d67-4868-bb41-03a1056d27d2</guid>
+      <guid>6fc2b50c-8d4d-426b-afa6-ce4bd6e8ba27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Webtables/Element/Check Box</testCaseId>
+      <testCaseId>Test Cases/Webtables/Elements/Check Box</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>19f54311-998f-492f-9853-aa5e4b1939a4</guid>
+      <guid>130f00da-fa7e-4e5f-8328-99f2cc4c5cf3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Webtables/Element/Radio Button</testCaseId>
+      <testCaseId>Test Cases/Webtables/Elements/Radio Button</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d68896b8-a6d9-47ad-9a63-b983a3527b80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Webtables/Elements/Web Tables</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d0a5134-4210-44db-b97d-3fd2f43bd590</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Webtables/Elements/Button</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cfbf2eb6-e813-415d-a13f-ffeae92eee1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Webtables/Elements/Links</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>113102d2-5bee-40ef-93b4-503c9a72b85c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Webtables/Elements/Broken Links - Images</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

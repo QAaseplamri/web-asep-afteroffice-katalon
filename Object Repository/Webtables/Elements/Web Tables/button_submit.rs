@@ -3,10 +3,11 @@
    <description></description>
    <name>button_submit</name>
    <tag></tag>
-   <elementGuidId>20918290-c3cb-4331-a847-05093a494c10</elementGuidId>
+   <elementGuidId>be2e44d7-57ea-4e98-b291-c843c4e76c4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
