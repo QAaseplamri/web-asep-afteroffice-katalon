@@ -1,0 +1,234 @@
+2025-06-15 15:02:38.841 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test Suite Element
+2025-06-15 15:02:39.174 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Asep Asep
+2025-06-15 15:02:39.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web-asep-afteroffice-katalon
+2025-06-15 15:02:39.182 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - DESKTOP-JTI6TQ0
+2025-06-15 15:02:39.185 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-15 15:02:39.186 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.219.10
+2025-06-15 15:02:39.186 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-15 15:02:42.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:02:42.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Text Box
+2025-06-15 15:02:43.510 DEBUG testcase.Text Box                        - 1: openBrowser("")
+2025-06-15 15:02:44.224 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-15 15:02:44.315 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-15 15:02:44.318 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-15 15:02:46.053 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1735 ms
+2025-06-15 15:02:46.055 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\ACER\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-15 15:02:46.055 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\ACER\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-15 15:02:46.107 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 15, 2025 3:02:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 15, 2025 3:02:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-15 15:02:54.372 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 245cd52635f16e9df8792efa6e7f45f3
+2025-06-15 15:02:54.375 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-15 15:02:54.377 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-15 15:02:54.378 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-15 15:02:54.403 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-15 15:02:54.560 DEBUG testcase.Text Box                        - 2: navigateToUrl(url)
+2025-06-15 15:03:06.760 DEBUG testcase.Text Box                        - 3: maximizeWindow()
+2025-06-15 15:03:07.202 DEBUG testcase.Text Box                        - 4: waitForElementVisible(findTestObject("Webtables/toolsQA"), 0)
+2025-06-15 15:03:07.826 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:09.157 DEBUG testcase.Text Box                        - 5: verifyElementVisible(findTestObject("Webtables/toolsQA"))
+2025-06-15 15:03:09.596 DEBUG testcase.Text Box                        - 6: scrollToElement(findTestObject("Webtables/element"), 0)
+2025-06-15 15:03:09.723 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:12.596 DEBUG testcase.Text Box                        - 7: click(findTestObject("Webtables/element"))
+2025-06-15 15:03:14.387 DEBUG testcase.Text Box                        - 8: click(findTestObject("Webtables/Elements/Text Box/textbox"))
+2025-06-15 15:03:17.028 DEBUG testcase.Text Box                        - 9: verifyElementText(findTestObject("Webtables/Elements/Text Box/text_textbox"), "Text Box")
+2025-06-15 15:03:17.921 DEBUG testcase.Text Box                        - 10: setText(findTestObject("Webtables/Elements/Text Box/input_fullName"), "Testing automation")
+2025-06-15 15:03:19.378 DEBUG testcase.Text Box                        - 11: setText(findTestObject("Webtables/Elements/Text Box/input_email"), "testingautomation@gmail.com")
+2025-06-15 15:03:23.600 DEBUG testcase.Text Box                        - 12: setText(findTestObject("Webtables/Elements/Text Box/input_currentAddress"), "Jakarta selatan")
+2025-06-15 15:03:24.640 DEBUG testcase.Text Box                        - 13: setText(findTestObject("Webtables/Elements/Text Box/input_permanentAddress"), "Jakarta selatan")
+2025-06-15 15:03:25.417 DEBUG testcase.Text Box                        - 14: scrollToElement(findTestObject("Webtables/Elements/Text Box/button_submit"), 0)
+2025-06-15 15:03:25.482 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:25.834 DEBUG testcase.Text Box                        - 15: click(findTestObject("Webtables/Elements/Text Box/button_submit"))
+2025-06-15 15:03:26.368 DEBUG testcase.Text Box                        - 16: takeScreenshot()
+2025-06-15 15:03:27.219 DEBUG testcase.Text Box                        - 17: verifyElementVisible(findTestObject("Webtables/Elements/Text Box/verify_output"))
+2025-06-15 15:03:27.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Text Box
+2025-06-15 15:03:27.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:03:27.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Check Box
+2025-06-15 15:03:27.865 DEBUG testcase.Check Box                       - 1: scrollToElement(findTestObject("Webtables/Elements/Check Box/checkbox"), 0)
+2025-06-15 15:03:27.907 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:28.261 DEBUG testcase.Check Box                       - 2: click(findTestObject("Webtables/Elements/Check Box/checkbox"))
+2025-06-15 15:03:28.884 DEBUG testcase.Check Box                       - 3: verifyElementText(findTestObject("Webtables/Elements/Check Box/text_checkbox"), "Check Box")
+2025-06-15 15:03:29.384 DEBUG testcase.Check Box                       - 4: scrollToElement(findTestObject("Webtables/Elements/Check Box/expand_plus"), 0)
+2025-06-15 15:03:29.916 DEBUG testcase.Check Box                       - 5: click(findTestObject("Webtables/Elements/Check Box/expand_plus"))
+2025-06-15 15:03:29.493 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:30.389 DEBUG testcase.Check Box                       - 6: click(findTestObject("Webtables/Elements/Check Box/checkbox_documents"))
+2025-06-15 15:03:31.020 DEBUG testcase.Check Box                       - 7: scrollToElement(findTestObject("Webtables/Elements/Check Box/verify_output"), 0)
+2025-06-15 15:03:31.062 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:31.490 DEBUG testcase.Check Box                       - 8: verifyElementVisible(findTestObject("Webtables/Elements/Check Box/verify_output"))
+2025-06-15 15:03:31.892 DEBUG testcase.Check Box                       - 9: takeScreenshot()
+2025-06-15 15:03:32.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Check Box
+2025-06-15 15:03:32.510 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:03:32.511 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Radio Button
+2025-06-15 15:03:32.758 DEBUG testcase.Radio Button                    - 1: scrollToElement(findTestObject("Webtables/Elements/Radio Button/radiobutton"), 0)
+2025-06-15 15:03:33.252 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:33.594 DEBUG testcase.Radio Button                    - 2: click(findTestObject("Webtables/Elements/Radio Button/radiobutton"))
+2025-06-15 15:03:34.752 DEBUG testcase.Radio Button                    - 3: verifyElementText(findTestObject("Webtables/Elements/Radio Button/text_radiobutton"), "Radio Button")
+2025-06-15 15:03:35.382 DEBUG testcase.Radio Button                    - 4: scrollToElement(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes"), 0)
+2025-06-15 15:03:35.444 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:35.727 DEBUG testcase.Radio Button                    - 5: click(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes"))
+2025-06-15 15:03:36.190 DEBUG testcase.Radio Button                    - 6: verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/verify_outputSukses"))
+2025-06-15 15:03:36.683 DEBUG testcase.Radio Button                    - 7: takeScreenshot()
+2025-06-15 15:03:37.409 DEBUG testcase.Radio Button                    - 8: click(findTestObject("Webtables/Elements/Radio Button/radiobutton_impressiveRadio"))
+2025-06-15 15:03:37.949 DEBUG testcase.Radio Button                    - 9: verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/verify_outputSukses"))
+2025-06-15 15:03:38.307 DEBUG testcase.Radio Button                    - 10: takeScreenshot()
+2025-06-15 15:03:38.867 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Radio Button
+2025-06-15 15:03:38.888 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:03:38.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Web Tables
+2025-06-15 15:03:39.287 DEBUG testcase.Web Tables                      - 1: scrollToElement(findTestObject("Webtables/Elements/Web Tables/webtables"), 0)
+2025-06-15 15:03:39.328 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:39.658 DEBUG testcase.Web Tables                      - 2: click(findTestObject("Webtables/Elements/Web Tables/webtables"))
+2025-06-15 15:03:40.199 DEBUG testcase.Web Tables                      - 3: verifyElementText(findTestObject("Webtables/Elements/Web Tables/text_webTables"), "Web Tables")
+2025-06-15 15:03:40.694 DEBUG testcase.Web Tables                      - 4: scrollToElement(findTestObject("Webtables/Elements/Web Tables/button_add"), 0)
+2025-06-15 15:03:40.769 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:41.078 DEBUG testcase.Web Tables                      - 5: click(findTestObject("Webtables/Elements/Web Tables/button_add"))
+2025-06-15 15:03:41.695 DEBUG testcase.Web Tables                      - 6: setText(findTestObject("Webtables/Elements/Web Tables/input_firstName"), "Testing")
+2025-06-15 15:03:42.730 DEBUG testcase.Web Tables                      - 7: setText(findTestObject("Webtables/Elements/Web Tables/input_lastName"), "Automation")
+2025-06-15 15:03:43.639 DEBUG testcase.Web Tables                      - 8: setText(findTestObject("Webtables/Elements/Web Tables/input_email"), "automation@gmail.com")
+2025-06-15 15:03:44.559 DEBUG testcase.Web Tables                      - 9: setText(findTestObject("Webtables/Elements/Web Tables/input_age"), "25")
+2025-06-15 15:03:45.401 DEBUG testcase.Web Tables                      - 10: setText(findTestObject("Webtables/Elements/Web Tables/input_salary"), "10000000")
+2025-06-15 15:03:46.337 DEBUG testcase.Web Tables                      - 11: setText(findTestObject("Webtables/Elements/Web Tables/input_department"), "IT")
+2025-06-15 15:03:47.207 DEBUG testcase.Web Tables                      - 12: scrollToElement(findTestObject("Webtables/Elements/Web Tables/button_submit"), 0)
+2025-06-15 15:03:47.285 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:47.582 DEBUG testcase.Web Tables                      - 13: click(findTestObject("Webtables/Elements/Web Tables/button_submit"))
+2025-06-15 15:03:48.137 DEBUG testcase.Web Tables                      - 14: clearText(findTestObject("Webtables/Elements/Web Tables/input_search"), STOP_ON_FAILURE)
+2025-06-15 15:03:48.651 DEBUG testcase.Web Tables                      - 15: sendKeys(findTestObject("Webtables/Elements/Web Tables/input_search"), Keys.chord("Automation", ENTER))
+2025-06-15 15:03:49.390 DEBUG testcase.Web Tables                      - 16: takeScreenshot()
+2025-06-15 15:03:50.198 DEBUG testcase.Web Tables                      - 17: verifyElementVisible(findTestObject("Webtables/Elements/Web Tables/verify_output"))
+2025-06-15 15:03:50.591 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Web Tables
+2025-06-15 15:03:50.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:03:50.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Button
+2025-06-15 15:03:50.829 DEBUG testcase.Web Tables                      - 1: scrollToElement(findTestObject("Webtables/Elements/Button/button"), 0)
+2025-06-15 15:03:50.873 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:51.156 DEBUG testcase.Web Tables                      - 2: click(findTestObject("Webtables/Elements/Button/button"))
+2025-06-15 15:03:51.600 DEBUG testcase.Web Tables                      - 3: verifyElementText(findTestObject("Webtables/Elements/Button/text_button"), "Buttons")
+2025-06-15 15:03:52.093 DEBUG testcase.Web Tables                      - 4: scrollToElement(findTestObject("Webtables/Elements/Button/button_doubleClickMe"), 0)
+2025-06-15 15:03:52.119 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:52.433 DEBUG testcase.Web Tables                      - 5: doubleClick(findTestObject("Webtables/Elements/Button/button_doubleClickMe"))
+2025-06-15 15:03:52.965 DEBUG testcase.Web Tables                      - 6: verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputDoubleClick"), "You have done a double click")
+2025-06-15 15:03:53.527 DEBUG testcase.Web Tables                      - 7: rightClick(findTestObject("Webtables/Elements/Button/button_rightClickMe"))
+2025-06-15 15:03:54.059 DEBUG testcase.Web Tables                      - 8: verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputRightClick"), "You have done a right click")
+2025-06-15 15:03:54.537 DEBUG testcase.Web Tables                      - 9: click(findTestObject("Webtables/Elements/Button/button_clickMe"))
+2025-06-15 15:03:55.120 DEBUG testcase.Web Tables                      - 10: verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputClick"), "You have done a dynamic click")
+2025-06-15 15:03:55.590 DEBUG testcase.Web Tables                      - 11: takeScreenshot()
+2025-06-15 15:03:56.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Button
+2025-06-15 15:03:56.176 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:03:56.176 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Links
+2025-06-15 15:03:56.741 DEBUG testcase.Web Tables                      - 1: scrollToElement(findTestObject("Webtables/Elements/Links/links"), 0)
+2025-06-15 15:03:56.794 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:57.090 DEBUG testcase.Web Tables                      - 2: click(findTestObject("Webtables/Elements/Links/links"))
+2025-06-15 15:03:57.557 DEBUG testcase.Web Tables                      - 3: verifyElementText(findTestObject("Webtables/Elements/Links/text_links"), "Links")
+2025-06-15 15:03:58.035 DEBUG testcase.Web Tables                      - 4: scrollToElement(findTestObject("Webtables/Elements/Links/links_home"), 0)
+2025-06-15 15:03:58.069 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:03:58.368 DEBUG testcase.Web Tables                      - 5: link = findTestObject("Webtables/Elements/Links/links_home")
+2025-06-15 15:03:58.381 DEBUG testcase.Web Tables                      - 6: element = findWebElement(link, 10)
+2025-06-15 15:03:58.668 DEBUG testcase.Web Tables                      - 7: action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver())
+2025-06-15 15:03:58.713 DEBUG testcase.Web Tables                      - 8: build().perform()
+2025-06-15 15:03:59.052 DEBUG testcase.Web Tables                      - 9: driver = getWebDriver()
+2025-06-15 15:03:59.056 DEBUG testcase.Web Tables                      - 10: tabs = new java.util.ArrayList(driver.getWindowHandles())
+2025-06-15 15:03:59.330 DEBUG testcase.Web Tables                      - 11: switchTo().window(tabs[1])
+2025-06-15 15:03:59.532 DEBUG testcase.Web Tables                      - 12: waitForElementPresent(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), 0)
+2025-06-15 15:03:59.592 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:03.053 DEBUG testcase.Web Tables                      - 13: verifyElementVisible(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), STOP_ON_FAILURE)
+2025-06-15 15:04:03.353 DEBUG testcase.Web Tables                      - 14: takeScreenshot()
+2025-06-15 15:04:03.947 DEBUG testcase.Web Tables                      - 15: driver.close()
+2025-06-15 15:04:04.280 DEBUG testcase.Web Tables                      - 16: switchTo().window(tabs[0])
+2025-06-15 15:04:04.361 DEBUG testcase.Web Tables                      - 17: link1 = findTestObject("Webtables/Elements/Links/links_homeDynamic")
+2025-06-15 15:04:04.398 DEBUG testcase.Web Tables                      - 18: element1 = findWebElement(link1, 10)
+2025-06-15 15:04:04.785 DEBUG testcase.Web Tables                      - 19: build().perform()
+2025-06-15 15:04:05.215 DEBUG testcase.Web Tables                      - 20: tabs1 = new java.util.ArrayList(driver.getWindowHandles())
+2025-06-15 15:04:05.597 DEBUG testcase.Web Tables                      - 21: switchTo().window(tabs1[1])
+2025-06-15 15:04:05.771 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:05.751 DEBUG testcase.Web Tables                      - 22: waitForElementPresent(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), 0)
+2025-06-15 15:04:08.531 DEBUG testcase.Web Tables                      - 23: verifyElementVisible(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), STOP_ON_FAILURE)
+2025-06-15 15:04:08.865 DEBUG testcase.Web Tables                      - 24: takeScreenshot()
+2025-06-15 15:04:09.483 DEBUG testcase.Web Tables                      - 25: driver.close()
+2025-06-15 15:04:09.675 DEBUG testcase.Web Tables                      - 26: switchTo().window(tabs[0])
+2025-06-15 15:04:09.702 DEBUG testcase.Web Tables                      - 27: scrollToElement(findTestObject("Webtables/Elements/Links/links_created"), 0)
+2025-06-15 15:04:09.752 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:10.112 DEBUG testcase.Web Tables                      - 28: click(findTestObject("Webtables/Elements/Links/links_created"))
+2025-06-15 15:04:10.628 DEBUG testcase.Web Tables                      - 29: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 201 and status text Created")
+2025-06-15 15:04:11.883 DEBUG testcase.Web Tables                      - 30: takeScreenshot()
+2025-06-15 15:04:12.484 DEBUG testcase.Web Tables                      - 31: click(findTestObject("Webtables/Elements/Links/links_noContent"))
+2025-06-15 15:04:13.037 DEBUG testcase.Web Tables                      - 32: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 204 and status text No Content")
+2025-06-15 15:04:13.496 DEBUG testcase.Web Tables                      - 33: takeScreenshot()
+2025-06-15 15:04:14.094 DEBUG testcase.Web Tables                      - 34: click(findTestObject("Webtables/Elements/Links/links_moved"))
+2025-06-15 15:04:14.621 DEBUG testcase.Web Tables                      - 35: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 301 and status text Moved Permanently")
+2025-06-15 15:04:15.285 DEBUG testcase.Web Tables                      - 36: takeScreenshot()
+2025-06-15 15:04:15.890 DEBUG testcase.Web Tables                      - 37: click(findTestObject("Webtables/Elements/Links/links_badRequest"))
+2025-06-15 15:04:16.392 DEBUG testcase.Web Tables                      - 38: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 400 and status text Bad Request")
+2025-06-15 15:04:16.928 DEBUG testcase.Web Tables                      - 39: takeScreenshot()
+2025-06-15 15:04:17.533 DEBUG testcase.Web Tables                      - 40: click(findTestObject("Webtables/Elements/Links/links_unauthorized"))
+2025-06-15 15:04:18.064 DEBUG testcase.Web Tables                      - 41: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 401 and status text Unauthorized")
+2025-06-15 15:04:18.500 DEBUG testcase.Web Tables                      - 42: takeScreenshot()
+2025-06-15 15:04:19.082 DEBUG testcase.Web Tables                      - 43: click(findTestObject("Webtables/Elements/Links/links_forbidden"))
+2025-06-15 15:04:19.489 DEBUG testcase.Web Tables                      - 44: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 403 and status text Forbidden")
+2025-06-15 15:04:19.940 DEBUG testcase.Web Tables                      - 45: takeScreenshot()
+2025-06-15 15:04:20.601 DEBUG testcase.Web Tables                      - 46: click(findTestObject("Webtables/Elements/Links/links_notFound"))
+2025-06-15 15:04:21.125 DEBUG testcase.Web Tables                      - 47: verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 404 and status text Not Found")
+2025-06-15 15:04:21.554 DEBUG testcase.Web Tables                      - 48: takeScreenshot()
+2025-06-15 15:04:22.213 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Links
+2025-06-15 15:04:22.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:04:22.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Broken Links - Images
+2025-06-15 15:04:22.753 DEBUG testcase.Web Tables                      - 1: scrollToElement(findTestObject("Webtables/Elements/Broken Links - Images/brokenLinksImages"), 0)
+2025-06-15 15:04:22.804 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:23.121 DEBUG testcase.Web Tables                      - 2: click(findTestObject("Webtables/Elements/Broken Links - Images/brokenLinksImages"))
+2025-06-15 15:04:23.689 DEBUG testcase.Web Tables                      - 3: verifyElementText(findTestObject("Webtables/Elements/Broken Links - Images/text_brokenLinksImages"), "Broken Links - Images")
+2025-06-15 15:04:24.207 DEBUG testcase.Web Tables                      - 4: scrollToElement(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), 0)
+2025-06-15 15:04:24.287 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:24.617 DEBUG testcase.Web Tables                      - 5: waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), 0)
+2025-06-15 15:04:24.642 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:24.924 DEBUG testcase.Web Tables                      - 6: verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), STOP_ON_FAILURE)
+2025-06-15 15:04:25.244 DEBUG testcase.Web Tables                      - 7: waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/img_brokenImage"), 0)
+2025-06-15 15:04:25.296 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:25.590 DEBUG testcase.Web Tables                      - 8: verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/img_brokenImage"), STOP_ON_FAILURE)
+2025-06-15 15:04:25.984 DEBUG testcase.Web Tables                      - 9: link = findTestObject("Webtables/Elements/Broken Links - Images/link_validLink")
+2025-06-15 15:04:26.049 DEBUG testcase.Web Tables                      - 10: element = findWebElement(link, 10)
+2025-06-15 15:04:26.333 DEBUG testcase.Web Tables                      - 11: action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver())
+2025-06-15 15:04:26.343 DEBUG testcase.Web Tables                      - 12: build().perform()
+2025-06-15 15:04:26.600 DEBUG testcase.Web Tables                      - 13: driver = getWebDriver()
+2025-06-15 15:04:26.604 DEBUG testcase.Web Tables                      - 14: tabs = new java.util.ArrayList(driver.getWindowHandles())
+2025-06-15 15:04:26.778 DEBUG testcase.Web Tables                      - 15: switchTo().window(tabs[1])
+2025-06-15 15:04:26.828 DEBUG testcase.Web Tables                      - 16: waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputLinkValid"), 0)
+2025-06-15 15:04:26.870 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:29.607 DEBUG testcase.Web Tables                      - 17: verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputLinkValid"), STOP_ON_FAILURE)
+2025-06-15 15:04:29.889 DEBUG testcase.Web Tables                      - 18: takeScreenshot()
+2025-06-15 15:04:30.440 DEBUG testcase.Web Tables                      - 19: driver.close()
+2025-06-15 15:04:30.649 DEBUG testcase.Web Tables                      - 20: switchTo().window(tabs[0])
+2025-06-15 15:04:30.709 DEBUG testcase.Web Tables                      - 21: link1 = findTestObject("Webtables/Elements/Broken Links - Images/link_brokenLink")
+2025-06-15 15:04:30.769 DEBUG testcase.Web Tables                      - 22: element1 = findWebElement(link1, 10)
+2025-06-15 15:04:31.065 DEBUG testcase.Web Tables                      - 23: build().perform()
+2025-06-15 15:04:31.322 DEBUG testcase.Web Tables                      - 24: tabs1 = new java.util.ArrayList(driver.getWindowHandles())
+2025-06-15 15:04:31.574 DEBUG testcase.Web Tables                      - 25: switchTo().window(tabs1[1])
+2025-06-15 15:04:31.688 DEBUG testcase.Web Tables                      - 26: waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputBrokenLink"), 0)
+2025-06-15 15:04:31.791 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:37.350 DEBUG testcase.Web Tables                      - 27: verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputBrokenLink"), STOP_ON_FAILURE)
+2025-06-15 15:04:37.638 DEBUG testcase.Web Tables                      - 28: takeScreenshot()
+2025-06-15 15:04:38.043 DEBUG testcase.Web Tables                      - 29: driver.close()
+2025-06-15 15:04:38.162 DEBUG testcase.Web Tables                      - 30: switchTo().window(tabs[0])
+2025-06-15 15:04:38.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Broken Links - Images
+2025-06-15 15:04:38.202 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 15:04:38.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Elements/Upload and Download
+2025-06-15 15:04:38.941 DEBUG testcase.Upload and Download             - 1: scrollToElement(findTestObject("Webtables/Elements/Upload and Download/uploadDanDownload"), 0)
+2025-06-15 15:04:38.988 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:39.267 DEBUG testcase.Upload and Download             - 2: click(findTestObject("Webtables/Elements/Upload and Download/uploadDanDownload"))
+2025-06-15 15:04:39.806 DEBUG testcase.Upload and Download             - 3: verifyElementText(findTestObject("Webtables/Elements/Upload and Download/text_uploadDanDownload"), "Upload and Download")
+2025-06-15 15:04:40.273 DEBUG testcase.Upload and Download             - 4: scrollToElement(findTestObject("Webtables/Elements/Upload and Download/button_download"), 0)
+2025-06-15 15:04:40.306 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 15:04:40.631 DEBUG testcase.Upload and Download             - 5: click(findTestObject("Webtables/Elements/Upload and Download/button_download"))
+2025-06-15 15:04:41.095 DEBUG testcase.Upload and Download             - 6: delay(15)
+2025-06-15 15:04:56.202 DEBUG testcase.Upload and Download             - 7: downloadPath = "C:/Users/ACER/Downloads"
+2025-06-15 15:04:56.208 DEBUG testcase.Upload and Download             - 8: fileName = "sampleFile.jpeg"
+2025-06-15 15:04:56.212 DEBUG testcase.Upload and Download             - 9: fullPath = downloadPath + "\" + fileName
+2025-06-15 15:04:56.221 DEBUG testcase.Upload and Download             - 10: downloadedFile = new java.io.File(fullPath)
+2025-06-15 15:04:56.227 DEBUG testcase.Upload and Download             - 11: if (downloadedFile.exists())
+2025-06-15 15:04:56.258 DEBUG testcase.Upload and Download             - 1: println("File berhasil didownload: " + fileName)
+File berhasil didownload: sampleFile.jpeg
+2025-06-15 15:04:56.268 DEBUG testcase.Upload and Download             - 13: uploadFile(findTestObject("Webtables/Elements/Upload and Download/button_pilihFile"), "C:\Users\ACER\Pictures\test.png")
+2025-06-15 15:04:56.622 DEBUG testcase.Upload and Download             - 14: verifyElementVisible(findTestObject("Webtables/Elements/Upload and Download/verify_output"))
+2025-06-15 15:04:57.102 DEBUG testcase.Upload and Download             - 15: takeScreenshot()
+2025-06-15 15:04:57.829 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Elements/Upload and Download
+2025-06-15 15:04:59.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-15 15:04:59.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Test Suite Element
+2025-06-15 15:04:59.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

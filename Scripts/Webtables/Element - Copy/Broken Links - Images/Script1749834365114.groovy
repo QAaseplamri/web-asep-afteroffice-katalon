@@ -28,13 +28,13 @@ import org.openqa.selenium.WebDriver
 //
 //WebUI.maximizeWindow()
 //
-//WebUI.waitForElementVisible(findTestObject('Webtables/Elements/toolsQA'), 0)
+//WebUI.waitForElementVisible(findTestObject('Webtables/toolsQA'), 0)
 //
-//WebUI.verifyElementVisible(findTestObject('Webtables/Elements/toolsQA'))
+//WebUI.verifyElementVisible(findTestObject('Webtables/toolsQA'))
 //
-//WebUI.scrollToElement(findTestObject('Webtables/Elements/element'), 0)
+//WebUI.scrollToElement(findTestObject('Webtables/element'), 0)
 //
-//WebUI.click(findTestObject('Webtables/Elements/element'))
+//WebUI.click(findTestObject('Webtables/element'))
 
 WebUI.scrollToElement(findTestObject('Webtables/Elements/Broken Links - Images/brokenLinksImages'), 0)
 

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Forms" time="109.765" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite Forms" tests="4" failures="0" errors="0" time="109.765" skipped="0" timestamp="15-06-2025T15:05:17" hostname="ACER - DESKTOP-JTI6TQ0" id="Test Suites/Test Suite Forms">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216"/>
+         <property name="logFiles" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\console0.log, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974746564.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974785716.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974789370.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974791039.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974805961.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974809320.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974810906.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974821082.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974824422.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974825919.png"/>
+         <property name="hostName" value="ACER - DESKTOP-JTI6TQ0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Asep Asep"/>
+         <property name="hostAddress" value="192.168.219.10"/>
+         <property name="sessionId" value="2396b091233e894163cefd4e2e04994f"/>
+         <property name="projectName" value="web-asep-afteroffice-katalon"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Webtables/Forms/Practice Form" time="24.461" classname="Test Cases/Webtables/Forms/Practice Form" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:05:47 - [TEST_CASE][PASSED] - Test Cases/Webtables/Forms/Practice Form: Test Cases/Webtables/Forms/Practice Form
+
+15-06-2025T15:05:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T15:05:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-06-2025T15:05:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T15:05:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T15:05:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T15:05:54 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://demoqa.com/' successfully
+
+15-06-2025T15:06:02 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+15-06-2025T15:06:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-06-2025T15:06:02 - [MESSAGE][PASSED] - Current window maximized
+
+15-06-2025T15:06:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Webtables/toolsQA"), 0): Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:06:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:04 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:06:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/toolsQA")): Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:06:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/forms"), 0): Scroll to object 'Object Repository/Webtables/forms' successfully
+
+15-06-2025T15:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/forms' successfully
+
+15-06-2025T15:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/forms")): Object: 'Object Repository/Webtables/forms' is clicked on
+
+15-06-2025T15:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/forms' is clicked on
+
+15-06-2025T15:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/practiceForm")): Object: 'Object Repository/Webtables/Forms/practiceForm' is clicked on
+
+15-06-2025T15:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/practiceForm' is clicked on
+
+15-06-2025T15:06:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Forms/text_practiceForm"), "Practice Form"): Actual text and expected text of test object 'Object Repository/Webtables/Forms/text_practiceForm' are matched.
+
+15-06-2025T15:06:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Forms/text_practiceForm' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Forms/Pengisian Form" time="24.599" classname="Test Cases/Webtables/Forms/Pengisian Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Indra","lastName":"Saputro","gender":"Male","hobbies":"Sports","city":"Delhi","mobileNumber":"1000000001","subjects":"Computer Science","dateOfBirth":"12 12 1999","state":"NCR","email":"indrasaputro@gmail.com","currentAddress":"Jakarta Selatan"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-06-2025T15:06:12 - [TEST_CASE][PASSED] - Test Cases/Webtables/Forms/Pengisian Form: Test Cases/Webtables/Forms/Pengisian Form
+
+15-06-2025T15:06:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0): Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_firstName"), firstName): Text 'Indra' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:17 - [MESSAGE][PASSED] - Text 'Indra' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_lastName"), lastName): Text 'Saputro' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:18 - [MESSAGE][PASSED] - Text 'Saputro' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_email"), email): Text 'indrasaputro@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:19 - [MESSAGE][PASSED] - Text 'indrasaputro@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:19 - [TEST_STEP][PASSED] - statusGender = gender: null
+
+15-06-2025T15:06:19 - [TEST_STEP][PASSED] - radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']"): null
+
+15-06-2025T15:06:19 - [TEST_STEP][PASSED] - click(radioButtonGender): Object: '' is clicked on
+
+15-06-2025T15:06:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber): Text '1000000001' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:21 - [MESSAGE][PASSED] - Text '1000000001' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:21 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth): Keys '12 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:22 - [MESSAGE][PASSED] - Keys '12 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_subjects"), subjects): Text 'Computer Science' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:24 - [MESSAGE][PASSED] - Text 'Computer Science' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:24 - [TEST_STEP][PASSED] - statusHobbies = hobbies: null
+
+15-06-2025T15:06:24 - [TEST_STEP][PASSED] - checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']"): null
+
+15-06-2025T15:06:24 - [TEST_STEP][PASSED] - click(checkboxHobbies): Object: '' is clicked on
+
+15-06-2025T15:06:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:06:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974785716.png]]
+
+15-06-2025T15:06:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:06:26 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png"): File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:06:26 - [MESSAGE][PASSED] - File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress): Text 'Jakarta Selatan' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:06:27 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:06:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER)): Keys 'ENTER + NCR' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:06:28 - [MESSAGE][PASSED] - Keys 'ENTER + NCR' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:06:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER)): Keys 'ENTER + Delhi' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:06:28 - [MESSAGE][PASSED] - Keys 'ENTER + Delhi' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:06:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974789370.png]]
+
+15-06-2025T15:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_submit")): Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:06:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit")): Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:06:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974791039.png]]
+
+15-06-2025T15:06:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_close"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:06:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_close")): Object: 'Object Repository/Webtables/Forms/button_close' is clicked on
+
+15-06-2025T15:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Forms/Pengisian Form" time="14.753" classname="Test Cases/Webtables/Forms/Pengisian Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Mirna","lastName":"Burhan","gender":"Female","hobbies":"Reading","city":"Karnal","mobileNumber":"1000000002","subjects":"Accounting","dateOfBirth":"13 12 1999","state":"Haryana","email":"budiburhan@gmail.com","currentAddress":"Jakarta Barat"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-06-2025T15:06:37 - [TEST_CASE][PASSED] - Test Cases/Webtables/Forms/Pengisian Form: Test Cases/Webtables/Forms/Pengisian Form
+
+15-06-2025T15:06:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0): Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_firstName"), firstName): Text 'Mirna' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:38 - [MESSAGE][PASSED] - Text 'Mirna' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_lastName"), lastName): Text 'Burhan' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:39 - [MESSAGE][PASSED] - Text 'Burhan' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_email"), email): Text 'budiburhan@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:40 - [MESSAGE][PASSED] - Text 'budiburhan@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:40 - [TEST_STEP][PASSED] - statusGender = gender: null
+
+15-06-2025T15:06:40 - [TEST_STEP][PASSED] - radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']"): null
+
+15-06-2025T15:06:40 - [TEST_STEP][PASSED] - click(radioButtonGender): Object: '' is clicked on
+
+15-06-2025T15:06:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber): Text '1000000002' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:41 - [MESSAGE][PASSED] - Text '1000000002' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:42 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth): Keys '13 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:42 - [MESSAGE][PASSED] - Keys '13 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_subjects"), subjects): Text 'Accounting' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:44 - [MESSAGE][PASSED] - Text 'Accounting' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:44 - [TEST_STEP][PASSED] - statusHobbies = hobbies: null
+
+15-06-2025T15:06:44 - [TEST_STEP][PASSED] - checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']"): null
+
+15-06-2025T15:06:44 - [TEST_STEP][PASSED] - click(checkboxHobbies): Object: '' is clicked on
+
+15-06-2025T15:06:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:06:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974805961.png]]
+
+15-06-2025T15:06:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:06:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:06:46 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png"): File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:06:46 - [MESSAGE][PASSED] - File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress): Text 'Jakarta Barat' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:06:47 - [MESSAGE][PASSED] - Text 'Jakarta Barat' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:06:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER)): Keys 'ENTER + Haryana' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:06:48 - [MESSAGE][PASSED] - Keys 'ENTER + Haryana' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:06:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER)): Keys 'ENTER + Karnal' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:06:48 - [MESSAGE][PASSED] - Keys 'ENTER + Karnal' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:06:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974809320.png]]
+
+15-06-2025T15:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_submit")): Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:06:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit")): Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:06:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:06:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974810906.png]]
+
+15-06-2025T15:06:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_close"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_close")): Object: 'Object Repository/Webtables/Forms/button_close' is clicked on
+
+15-06-2025T15:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Forms/Pengisian Form" time="14.471" classname="Test Cases/Webtables/Forms/Pengisian Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Agus","lastName":"Sembiring","gender":"Other","hobbies":"Music","city":"Jaipur","mobileNumber":"1000000003","subjects":"Biology","dateOfBirth":"14 12 1999","state":"Rajasthan","email":"agussembiring@gmail.com","currentAddress":"Jakarta Utara"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-06-2025T15:06:52 - [TEST_CASE][PASSED] - Test Cases/Webtables/Forms/Pengisian Form: Test Cases/Webtables/Forms/Pengisian Form
+
+15-06-2025T15:06:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0): Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:06:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/input_firstName' successfully
+
+15-06-2025T15:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_firstName"), firstName): Text 'Agus' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:53 - [MESSAGE][PASSED] - Text 'Agus' is set on object 'Object Repository/Webtables/Forms/input_firstName'
+
+15-06-2025T15:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_lastName"), lastName): Text 'Sembiring' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:54 - [MESSAGE][PASSED] - Text 'Sembiring' is set on object 'Object Repository/Webtables/Forms/input_lastName'
+
+15-06-2025T15:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_email"), email): Text 'agussembiring@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:55 - [MESSAGE][PASSED] - Text 'agussembiring@gmail.com' is set on object 'Object Repository/Webtables/Forms/input_email'
+
+15-06-2025T15:06:55 - [TEST_STEP][PASSED] - statusGender = gender: null
+
+15-06-2025T15:06:55 - [TEST_STEP][PASSED] - radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']"): null
+
+15-06-2025T15:06:55 - [TEST_STEP][PASSED] - click(radioButtonGender): Object: '' is clicked on
+
+15-06-2025T15:06:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:06:55 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber): Text '1000000003' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:56 - [MESSAGE][PASSED] - Text '1000000003' is set on object 'Object Repository/Webtables/Forms/input_mobileNumber'
+
+15-06-2025T15:06:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth): Keys '14 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:58 - [MESSAGE][PASSED] - Keys '14 12 1999' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_dateOfBirth'
+
+15-06-2025T15:06:58 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_subjects"), subjects): Text 'Biology' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:59 - [MESSAGE][PASSED] - Text 'Biology' is set on object 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:06:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:07:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Webtables/Forms/input_subjects'
+
+15-06-2025T15:07:00 - [TEST_STEP][PASSED] - statusHobbies = hobbies: null
+
+15-06-2025T15:07:00 - [TEST_STEP][PASSED] - checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']"): null
+
+15-06-2025T15:07:00 - [TEST_STEP][PASSED] - click(checkboxHobbies): Object: '' is clicked on
+
+15-06-2025T15:07:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+15-06-2025T15:07:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:07:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974821082.png]]
+
+15-06-2025T15:07:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:07:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_pilihFile' successfully
+
+15-06-2025T15:07:01 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png"): File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:07:02 - [MESSAGE][PASSED] - File 'C:/Users/ACER/Pictures/test.png' sent to object: 'Object Repository/Webtables/Forms/button_pilihFile'
+
+15-06-2025T15:07:02 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress): Text 'Jakarta Utara' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:07:02 - [MESSAGE][PASSED] - Text 'Jakarta Utara' is set on object 'Object Repository/Webtables/Forms/input_currentAddress'
+
+15-06-2025T15:07:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER)): Keys 'ENTER + Rajasthan' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:07:03 - [MESSAGE][PASSED] - Keys 'ENTER + Rajasthan' sent to object: 'Object Repository/Webtables/Forms/input_selectState'
+
+15-06-2025T15:07:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER)): Keys 'ENTER + Jaipur' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:07:03 - [MESSAGE][PASSED] - Keys 'ENTER + Jaipur' sent to object: 'Object Repository/Webtables/Forms/input_selectCity'
+
+15-06-2025T15:07:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:07:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974824422.png]]
+
+15-06-2025T15:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_submit")): Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_submit' is clicked on
+
+15-06-2025T15:07:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit")): Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Forms/verify_suksesSubmit' is visible
+
+15-06-2025T15:07:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:07:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Forms\\20250615_150216\\1749974825919.png]]
+
+15-06-2025T15:07:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Forms/button_close"), 0): Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:07:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:07:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Forms/button_close' successfully
+
+15-06-2025T15:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Forms/button_close")): Object: 'Object Repository/Webtables/Forms/button_close' is clicked on
+
+15-06-2025T15:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Forms/button_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-06-2025T15:05:17 - [TEST_SUITE][FAILED] - Test Suite Forms: Test Cases/Webtables/Forms/Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:359)
+	at Practice Form.run(Practice Form:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749974536803.run(TempTestSuite1749974536803.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.70)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [9de07ad41fc464582cf27831427769f8, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.70, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\ACER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60853}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60853/devtoo..., se:cdpVersion: 137.0.7151.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:25331/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9de07ad41fc464582cf27831427769f8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$FPavOiYq.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[15-06-2025T15:05:17 - [TEST_SUITE][FAILED] - Test Suite Forms: Test Cases/Webtables/Forms/Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:359)
+	at Practice Form.run(Practice Form:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749974536803.run(TempTestSuite1749974536803.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.70)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [9de07ad41fc464582cf27831427769f8, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.70, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\ACER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60853}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60853/devtoo..., se:cdpVersion: 137.0.7151.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:25331/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9de07ad41fc464582cf27831427769f8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$FPavOiYq.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>element</name>
+   <name>button_download</name>
    <tag></tag>
-   <elementGuidId>15598e4c-218c-459a-b3fd-60b89de16100</elementGuidId>
+   <elementGuidId>85c798d5-fa8b-4d6d-9ffc-1d30f512f9e8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]//h5[contains(text(),'Elements')]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;downloadButton&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

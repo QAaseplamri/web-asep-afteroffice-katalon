@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Test Suite Collection",
+  "name": "Test Suite Collection",
+  "reportFolder": "F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Collection\\20250615_150211",
+  "startTime": 1749974540231,
+  "endTime": 1749974831285,
+  "totalPassedTestCases": "12",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "12",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

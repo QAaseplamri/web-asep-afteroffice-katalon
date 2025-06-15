@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Forms,,,,15-06-2025 14:27:44,15-06-2025 14:29:11,1m - 26.978s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Practice Form,,,,15-06-2025 14:27:45,15-06-2025 14:28:08,22.195s,PASSED
+"openBrowser("""")",,,,15-06-2025 14:27:47,15-06-2025 14:27:51,3.607s,PASSED
+navigateToUrl(url),,,,15-06-2025 14:27:51,15-06-2025 14:28:00,9.540s,PASSED
+maximizeWindow(),,,,15-06-2025 14:28:00,15-06-2025 14:28:00,0.349s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/toolsQA""), 0)",,,,15-06-2025 14:28:00,15-06-2025 14:28:03,2.658s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/toolsQA""))",,,,15-06-2025 14:28:03,15-06-2025 14:28:04,0.453s,PASSED
+"scrollToElement(findTestObject(""Webtables/forms""), 0)",,,,15-06-2025 14:28:04,15-06-2025 14:28:04,0.460s,PASSED
+"click(findTestObject(""Webtables/forms""))",,,,15-06-2025 14:28:04,15-06-2025 14:28:05,0.684s,PASSED
+"click(findTestObject(""Webtables/Forms/practiceForm""))",,,,15-06-2025 14:28:05,15-06-2025 14:28:07,2.399s,PASSED
+"verifyElementText(findTestObject(""Webtables/Forms/text_practiceForm""), ""Practice Form"")",,,,15-06-2025 14:28:07,15-06-2025 14:28:08,0.559s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Pengisian Form,,,,15-06-2025 14:28:08,15-06-2025 14:28:39,30.583s,PASSED
+"DATA BINDING - {""firstName"":""Indra"",""lastName"":""Saputro"",""gender"":""Male"",""hobbies"":""Sports"",""city"":""Delhi"",""mobileNumber"":""1000000001"",""subjects"":""Computer Science"",""dateOfBirth"":""12 12 1999"",""state"":""NCR"",""email"":""indrasaputro@gmail.com"",""currentAddress"":""Jakarta Selatan""}",,,,,,,
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",,,,15-06-2025 14:28:09,15-06-2025 14:28:16,6.560s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",,,,15-06-2025 14:28:16,15-06-2025 14:28:18,2.268s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",,,,15-06-2025 14:28:18,15-06-2025 14:28:20,1.351s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",,,,15-06-2025 14:28:20,15-06-2025 14:28:21,0.956s,PASSED
+statusGender = gender,,,,15-06-2025 14:28:21,15-06-2025 14:28:21,0.006s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",,,,15-06-2025 14:28:21,15-06-2025 14:28:21,0.040s,PASSED
+click(radioButtonGender),,,,15-06-2025 14:28:21,15-06-2025 14:28:21,0.430s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",,,,15-06-2025 14:28:21,15-06-2025 14:28:22,0.832s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",,,,15-06-2025 14:28:22,15-06-2025 14:28:23,0.696s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",,,,15-06-2025 14:28:23,15-06-2025 14:28:23,0.624s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",,,,15-06-2025 14:28:23,15-06-2025 14:28:24,0.521s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",,,,15-06-2025 14:28:24,15-06-2025 14:28:25,0.924s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",,,,15-06-2025 14:28:25,15-06-2025 14:28:25,0.568s,PASSED
+statusHobbies = hobbies,,,,15-06-2025 14:28:25,15-06-2025 14:28:25,0.005s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",,,,15-06-2025 14:28:25,15-06-2025 14:28:25,0.005s,PASSED
+click(checkboxHobbies),,,,15-06-2025 14:28:25,15-06-2025 14:28:26,0.634s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:26,15-06-2025 14:28:27,0.709s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",,,,15-06-2025 14:28:27,15-06-2025 14:28:27,0.331s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",,,,15-06-2025 14:28:27,15-06-2025 14:28:27,0.393s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",,,,15-06-2025 14:28:27,15-06-2025 14:28:28,0.779s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",,,,15-06-2025 14:28:28,15-06-2025 14:28:29,0.510s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",,,,15-06-2025 14:28:29,15-06-2025 14:28:29,0.603s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:29,15-06-2025 14:28:30,0.769s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",,,,15-06-2025 14:28:30,15-06-2025 14:28:30,0.511s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",,,,15-06-2025 14:28:30,15-06-2025 14:28:31,0.468s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:31,15-06-2025 14:28:31,0.467s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",,,,15-06-2025 14:28:31,15-06-2025 14:28:32,0.366s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",,,,15-06-2025 14:28:32,15-06-2025 14:28:39,7.074s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Pengisian Form,,,,15-06-2025 14:28:39,15-06-2025 14:28:54,14.904s,PASSED
+"DATA BINDING - {""firstName"":""Mirna"",""lastName"":""Burhan"",""gender"":""Female"",""hobbies"":""Reading"",""city"":""Karnal"",""mobileNumber"":""1000000002"",""subjects"":""Accounting"",""dateOfBirth"":""13 12 1999"",""state"":""Haryana"",""email"":""budiburhan@gmail.com"",""currentAddress"":""Jakarta Barat""}",,,,,,,
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",,,,15-06-2025 14:28:39,15-06-2025 14:28:40,0.312s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",,,,15-06-2025 14:28:40,15-06-2025 14:28:41,0.870s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",,,,15-06-2025 14:28:41,15-06-2025 14:28:41,0.832s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",,,,15-06-2025 14:28:41,15-06-2025 14:28:42,0.751s,PASSED
+statusGender = gender,,,,15-06-2025 14:28:42,15-06-2025 14:28:42,0.001s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",,,,15-06-2025 14:28:42,15-06-2025 14:28:42,0.003s,PASSED
+click(radioButtonGender),,,,15-06-2025 14:28:42,15-06-2025 14:28:43,0.475s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",,,,15-06-2025 14:28:43,15-06-2025 14:28:43,0.804s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",,,,15-06-2025 14:28:43,15-06-2025 14:28:44,0.488s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",,,,15-06-2025 14:28:44,15-06-2025 14:28:45,0.630s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",,,,15-06-2025 14:28:45,15-06-2025 14:28:45,0.462s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",,,,15-06-2025 14:28:45,15-06-2025 14:28:46,1.086s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",,,,15-06-2025 14:28:46,15-06-2025 14:28:47,0.593s,PASSED
+statusHobbies = hobbies,,,,15-06-2025 14:28:47,15-06-2025 14:28:47,0.002s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",,,,15-06-2025 14:28:47,15-06-2025 14:28:47,0.006s,PASSED
+click(checkboxHobbies),,,,15-06-2025 14:28:47,15-06-2025 14:28:47,0.753s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:47,15-06-2025 14:28:48,0.658s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",,,,15-06-2025 14:28:48,15-06-2025 14:28:48,0.323s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",,,,15-06-2025 14:28:48,15-06-2025 14:28:49,0.439s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",,,,15-06-2025 14:28:49,15-06-2025 14:28:50,0.857s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",,,,15-06-2025 14:28:50,15-06-2025 14:28:50,0.528s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",,,,15-06-2025 14:28:50,15-06-2025 14:28:51,0.742s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:51,15-06-2025 14:28:52,0.774s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",,,,15-06-2025 14:28:52,15-06-2025 14:28:52,0.531s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",,,,15-06-2025 14:28:52,15-06-2025 14:28:53,0.412s,PASSED
+takeScreenshot(),,,,15-06-2025 14:28:53,15-06-2025 14:28:53,0.622s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",,,,15-06-2025 14:28:53,15-06-2025 14:28:54,0.323s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",,,,15-06-2025 14:28:54,15-06-2025 14:28:54,0.495s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Pengisian Form,,,,15-06-2025 14:28:55,15-06-2025 14:29:09,14.693s,PASSED
+"DATA BINDING - {""firstName"":""Agus"",""lastName"":""Sembiring"",""gender"":""Other"",""hobbies"":""Music"",""city"":""Jaipur"",""mobileNumber"":""1000000003"",""subjects"":""Biology"",""dateOfBirth"":""14 12 1999"",""state"":""Rajasthan"",""email"":""agussembiring@gmail.com"",""currentAddress"":""Jakarta Utara""}",,,,,,,
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",,,,15-06-2025 14:28:55,15-06-2025 14:28:55,0.318s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",,,,15-06-2025 14:28:55,15-06-2025 14:28:56,0.893s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",,,,15-06-2025 14:28:56,15-06-2025 14:28:57,0.888s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",,,,15-06-2025 14:28:57,15-06-2025 14:28:58,0.908s,PASSED
+statusGender = gender,,,,15-06-2025 14:28:58,15-06-2025 14:28:58,0.001s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",,,,15-06-2025 14:28:58,15-06-2025 14:28:58,0.001s,PASSED
+click(radioButtonGender),,,,15-06-2025 14:28:58,15-06-2025 14:28:58,0.368s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",,,,15-06-2025 14:28:58,15-06-2025 14:28:59,0.828s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",,,,15-06-2025 14:28:59,15-06-2025 14:28:59,0.554s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",,,,15-06-2025 14:28:59,15-06-2025 14:29:00,0.716s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",,,,15-06-2025 14:29:00,15-06-2025 14:29:01,0.486s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",,,,15-06-2025 14:29:01,15-06-2025 14:29:02,0.862s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",,,,15-06-2025 14:29:02,15-06-2025 14:29:02,0.624s,PASSED
+statusHobbies = hobbies,,,,15-06-2025 14:29:02,15-06-2025 14:29:02,0.002s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",,,,15-06-2025 14:29:02,15-06-2025 14:29:02,0.003s,PASSED
+click(checkboxHobbies),,,,15-06-2025 14:29:02,15-06-2025 14:29:03,0.736s,PASSED
+takeScreenshot(),,,,15-06-2025 14:29:03,15-06-2025 14:29:03,0.569s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",,,,15-06-2025 14:29:04,15-06-2025 14:29:04,0.275s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",,,,15-06-2025 14:29:04,15-06-2025 14:29:04,0.375s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",,,,15-06-2025 14:29:04,15-06-2025 14:29:05,0.821s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",,,,15-06-2025 14:29:05,15-06-2025 14:29:05,0.488s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",,,,15-06-2025 14:29:05,15-06-2025 14:29:06,0.757s,PASSED
+takeScreenshot(),,,,15-06-2025 14:29:06,15-06-2025 14:29:07,0.806s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",,,,15-06-2025 14:29:07,15-06-2025 14:29:08,0.509s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",,,,15-06-2025 14:29:08,15-06-2025 14:29:08,0.442s,PASSED
+takeScreenshot(),,,,15-06-2025 14:29:08,15-06-2025 14:29:09,0.587s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",,,,15-06-2025 14:29:09,15-06-2025 14:29:09,0.296s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",,,,15-06-2025 14:29:09,15-06-2025 14:29:09,0.489s,PASSED

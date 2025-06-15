@@ -1,0 +1,225 @@
+2025-06-15 13:30:02.022 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test Suite Forms
+2025-06-15 13:30:02.387 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Asep Asep
+2025-06-15 13:30:02.395 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web-asep-afteroffice-katalon
+2025-06-15 13:30:02.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - DESKTOP-JTI6TQ0
+2025-06-15 13:30:02.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-15 13:30:02.404 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.219.10
+2025-06-15 13:30:02.413 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-15 13:30:04.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 13:30:04.391 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:30:05.054 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstName = Indra
+2025-06-15 13:30:05.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastName = Saputro
+2025-06-15 13:30:05.061 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = indrasaputro@gmail.com
+2025-06-15 13:30:05.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Male
+2025-06-15 13:30:05.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobileNumber = 1000000001
+2025-06-15 13:30:05.067 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateOfBirth = 12 12 1999
+2025-06-15 13:30:05.068 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Computer Science
+2025-06-15 13:30:05.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Sports
+2025-06-15 13:30:05.078 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentAddress = Jakarta Selatan
+2025-06-15 13:30:05.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = NCR
+2025-06-15 13:30:05.083 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Delhi
+2025-06-15 13:30:09.268 DEBUG testcase.Practice Form                   - 1: openBrowser("")
+2025-06-15 13:30:09.921 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-15 13:30:10.101 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-15 13:30:10.105 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-15 13:30:11.533 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1427 ms
+2025-06-15 13:30:11.535 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\ACER\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-15 13:30:11.536 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\ACER\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-15 13:30:11.589 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 15, 2025 1:30:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 15, 2025 1:30:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-15 13:30:18.189 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f70f135cef9c54dd941ccd705eba427d
+2025-06-15 13:30:18.228 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-15 13:30:18.232 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-15 13:30:18.248 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-15 13:30:18.361 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-15 13:30:18.571 DEBUG testcase.Practice Form                   - 2: navigateToUrl(url)
+2025-06-15 13:30:35.346 DEBUG testcase.Practice Form                   - 3: maximizeWindow()
+2025-06-15 13:30:35.735 DEBUG testcase.Practice Form                   - 4: waitForElementVisible(findTestObject("Webtables/toolsQA"), 0)
+2025-06-15 13:30:36.118 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:30:39.236 DEBUG testcase.Practice Form                   - 5: verifyElementVisible(findTestObject("Webtables/toolsQA"))
+2025-06-15 13:30:39.599 DEBUG testcase.Practice Form                   - 6: scrollToElement(findTestObject("Webtables/forms"), 0)
+2025-06-15 13:30:39.679 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:30:40.013 DEBUG testcase.Practice Form                   - 7: click(findTestObject("Webtables/forms"))
+2025-06-15 13:30:40.807 DEBUG testcase.Practice Form                   - 8: click(findTestObject("Webtables/Forms/practiceForm"))
+2025-06-15 13:30:43.360 DEBUG testcase.Practice Form                   - 9: verifyElementText(findTestObject("Webtables/Forms/text_practiceForm"), "Practice Form")
+2025-06-15 13:30:44.210 DEBUG testcase.Practice Form                   - 10: scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0)
+2025-06-15 13:30:44.295 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:30:44.646 DEBUG testcase.Practice Form                   - 11: setText(findTestObject("Webtables/Forms/input_firstName"), firstName)
+2025-06-15 13:30:50.590 DEBUG testcase.Practice Form                   - 12: setText(findTestObject("Webtables/Forms/input_lastName"), lastName)
+2025-06-15 13:30:52.178 DEBUG testcase.Practice Form                   - 13: setText(findTestObject("Webtables/Forms/input_email"), email)
+2025-06-15 13:30:53.234 DEBUG testcase.Practice Form                   - 14: statusGender = gender
+2025-06-15 13:30:53.244 DEBUG testcase.Practice Form                   - 15: radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']")
+2025-06-15 13:30:53.275 DEBUG testcase.Practice Form                   - 16: click(radioButtonGender)
+2025-06-15 13:30:53.844 DEBUG testcase.Practice Form                   - 17: setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber)
+2025-06-15 13:30:54.859 DEBUG testcase.Practice Form                   - 18: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a"))
+2025-06-15 13:30:55.621 DEBUG testcase.Practice Form                   - 19: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth)
+2025-06-15 13:30:56.406 DEBUG testcase.Practice Form                   - 20: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER))
+2025-06-15 13:30:56.929 DEBUG testcase.Practice Form                   - 21: setText(findTestObject("Webtables/Forms/input_subjects"), subjects)
+2025-06-15 13:30:57.984 DEBUG testcase.Practice Form                   - 22: sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER))
+2025-06-15 13:30:58.672 DEBUG testcase.Practice Form                   - 23: statusHobbies = hobbies
+2025-06-15 13:30:58.682 DEBUG testcase.Practice Form                   - 24: checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']")
+2025-06-15 13:30:58.696 DEBUG testcase.Practice Form                   - 25: click(checkboxHobbies)
+2025-06-15 13:30:59.376 DEBUG testcase.Practice Form                   - 26: takeScreenshot()
+2025-06-15 13:31:00.169 DEBUG testcase.Practice Form                   - 27: scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0)
+2025-06-15 13:31:00.194 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:31:00.524 DEBUG testcase.Practice Form                   - 28: uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png")
+2025-06-15 13:31:00.936 DEBUG testcase.Practice Form                   - 29: setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress)
+2025-06-15 13:31:01.785 DEBUG testcase.Practice Form                   - 30: sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER))
+2025-06-15 13:31:02.252 DEBUG testcase.Practice Form                   - 31: sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER))
+2025-06-15 13:31:02.906 DEBUG testcase.Practice Form                   - 32: takeScreenshot()
+2025-06-15 13:31:03.734 DEBUG testcase.Practice Form                   - 33: click(findTestObject("Webtables/Forms/button_submit"))
+2025-06-15 13:31:04.318 DEBUG testcase.Practice Form                   - 34: verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit"))
+2025-06-15 13:31:04.794 DEBUG testcase.Practice Form                   - 35: scrollToElement(findTestObject("Webtables/Forms/button_close"), 0)
+2025-06-15 13:31:04.826 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:31:05.141 DEBUG testcase.Practice Form                   - 36: click(findTestObject("Webtables/Forms/button_close"))
+2025-06-15 13:31:30.875 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:31:31.426 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 13:31:31.426 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:31:31.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstName = Mirna
+2025-06-15 13:31:31.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastName = Burhan
+2025-06-15 13:31:31.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = budiburhan@gmail.com
+2025-06-15 13:31:31.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Female
+2025-06-15 13:31:31.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobileNumber = 1000000002
+2025-06-15 13:31:31.671 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateOfBirth = 13 12 1999
+2025-06-15 13:31:31.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Accounting
+2025-06-15 13:31:31.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Reading
+2025-06-15 13:31:31.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentAddress = Jakarta Barat
+2025-06-15 13:31:31.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = Haryana
+2025-06-15 13:31:31.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Karnal
+2025-06-15 13:31:31.683 DEBUG testcase.Practice Form                   - 1: openBrowser("")
+2025-06-15 13:31:31.699 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-15 13:31:33.023 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-15 13:31:33.026 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-15 13:31:33.026 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-15 13:31:33.726 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 700 ms
+2025-06-15 13:31:33.726 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\ACER\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-15 13:31:33.727 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\ACER\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-15 13:31:33.727 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 15, 2025 1:31:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 15, 2025 1:31:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-15 13:31:37.217 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 81703ff61e1deba41cd33ac89986031b
+2025-06-15 13:31:37.219 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-15 13:31:37.220 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-15 13:31:37.221 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-15 13:31:37.223 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-15 13:31:37.285 DEBUG testcase.Practice Form                   - 2: navigateToUrl(url)
+2025-06-15 13:31:45.614 DEBUG testcase.Practice Form                   - 3: maximizeWindow()
+2025-06-15 13:31:45.850 DEBUG testcase.Practice Form                   - 4: waitForElementVisible(findTestObject("Webtables/toolsQA"), 0)
+2025-06-15 13:31:45.869 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:31:47.978 DEBUG testcase.Practice Form                   - 5: verifyElementVisible(findTestObject("Webtables/toolsQA"))
+2025-06-15 13:31:48.442 DEBUG testcase.Practice Form                   - 6: scrollToElement(findTestObject("Webtables/forms"), 0)
+2025-06-15 13:31:48.457 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:31:48.855 DEBUG testcase.Practice Form                   - 7: click(findTestObject("Webtables/forms"))
+2025-06-15 13:31:49.616 DEBUG testcase.Practice Form                   - 8: click(findTestObject("Webtables/Forms/practiceForm"))
+2025-06-15 13:31:52.519 DEBUG testcase.Practice Form                   - 9: verifyElementText(findTestObject("Webtables/Forms/text_practiceForm"), "Practice Form")
+2025-06-15 13:31:53.277 DEBUG testcase.Practice Form                   - 10: scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0)
+2025-06-15 13:31:53.293 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:31:54.202 DEBUG testcase.Practice Form                   - 11: setText(findTestObject("Webtables/Forms/input_firstName"), firstName)
+2025-06-15 13:32:00.985 DEBUG testcase.Practice Form                   - 12: setText(findTestObject("Webtables/Forms/input_lastName"), lastName)
+2025-06-15 13:32:02.029 DEBUG testcase.Practice Form                   - 13: setText(findTestObject("Webtables/Forms/input_email"), email)
+2025-06-15 13:32:03.097 DEBUG testcase.Practice Form                   - 14: statusGender = gender
+2025-06-15 13:32:03.100 DEBUG testcase.Practice Form                   - 15: radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']")
+2025-06-15 13:32:03.103 DEBUG testcase.Practice Form                   - 16: click(radioButtonGender)
+2025-06-15 13:32:03.727 DEBUG testcase.Practice Form                   - 17: setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber)
+2025-06-15 13:32:04.604 DEBUG testcase.Practice Form                   - 18: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a"))
+2025-06-15 13:32:05.337 DEBUG testcase.Practice Form                   - 19: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth)
+2025-06-15 13:32:06.573 DEBUG testcase.Practice Form                   - 20: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER))
+2025-06-15 13:32:07.826 DEBUG testcase.Practice Form                   - 21: setText(findTestObject("Webtables/Forms/input_subjects"), subjects)
+2025-06-15 13:32:08.917 DEBUG testcase.Practice Form                   - 22: sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER))
+2025-06-15 13:32:09.516 DEBUG testcase.Practice Form                   - 23: statusHobbies = hobbies
+2025-06-15 13:32:09.518 DEBUG testcase.Practice Form                   - 24: checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']")
+2025-06-15 13:32:09.520 DEBUG testcase.Practice Form                   - 25: click(checkboxHobbies)
+2025-06-15 13:32:10.158 DEBUG testcase.Practice Form                   - 26: takeScreenshot()
+2025-06-15 13:32:11.031 DEBUG testcase.Practice Form                   - 27: scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0)
+2025-06-15 13:32:11.048 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:32:11.589 DEBUG testcase.Practice Form                   - 28: uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png")
+2025-06-15 13:32:12.083 DEBUG testcase.Practice Form                   - 29: setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress)
+2025-06-15 13:32:13.131 DEBUG testcase.Practice Form                   - 30: sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER))
+2025-06-15 13:32:13.800 DEBUG testcase.Practice Form                   - 31: sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER))
+2025-06-15 13:32:14.536 DEBUG testcase.Practice Form                   - 32: takeScreenshot()
+2025-06-15 13:32:15.499 DEBUG testcase.Practice Form                   - 33: click(findTestObject("Webtables/Forms/button_submit"))
+2025-06-15 13:32:16.597 DEBUG testcase.Practice Form                   - 34: verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit"))
+2025-06-15 13:32:16.952 DEBUG testcase.Practice Form                   - 35: scrollToElement(findTestObject("Webtables/Forms/button_close"), 0)
+2025-06-15 13:32:16.974 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:32:17.299 DEBUG testcase.Practice Form                   - 36: click(findTestObject("Webtables/Forms/button_close"))
+2025-06-15 13:32:30.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:32:31.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-15 13:32:31.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:32:31.178 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstName = Agus
+2025-06-15 13:32:31.178 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastName = Sembiring
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = agussembiring@gmail.com
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Other
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobileNumber = 1000000003
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateOfBirth = 14 12 1999
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Biology
+2025-06-15 13:32:31.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Music
+2025-06-15 13:32:31.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentAddress = Jakarta Utara
+2025-06-15 13:32:31.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = Rajasthan
+2025-06-15 13:32:31.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Jaipur
+2025-06-15 13:32:31.202 DEBUG testcase.Practice Form                   - 1: openBrowser("")
+2025-06-15 13:32:31.218 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-15 13:32:32.547 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-15 13:32:32.549 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-15 13:32:32.549 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-15 13:32:33.124 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 574 ms
+2025-06-15 13:32:33.124 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\ACER\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-15 13:32:33.125 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\ACER\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-15 13:32:33.125 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 15, 2025 1:32:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 15, 2025 1:32:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-15 13:32:36.202 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ab0b24076add056957df3848a92d682
+2025-06-15 13:32:36.204 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-15 13:32:36.205 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-15 13:32:36.205 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-15 13:32:36.215 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-15 13:32:36.294 DEBUG testcase.Practice Form                   - 2: navigateToUrl(url)
+2025-06-15 13:32:45.006 DEBUG testcase.Practice Form                   - 3: maximizeWindow()
+2025-06-15 13:32:45.350 DEBUG testcase.Practice Form                   - 4: waitForElementVisible(findTestObject("Webtables/toolsQA"), 0)
+2025-06-15 13:32:45.365 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:32:46.502 DEBUG testcase.Practice Form                   - 5: verifyElementVisible(findTestObject("Webtables/toolsQA"))
+2025-06-15 13:32:46.826 DEBUG testcase.Practice Form                   - 6: scrollToElement(findTestObject("Webtables/forms"), 0)
+2025-06-15 13:32:46.842 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:32:47.161 DEBUG testcase.Practice Form                   - 7: click(findTestObject("Webtables/forms"))
+2025-06-15 13:32:47.841 DEBUG testcase.Practice Form                   - 8: click(findTestObject("Webtables/Forms/practiceForm"))
+2025-06-15 13:32:50.284 DEBUG testcase.Practice Form                   - 9: verifyElementText(findTestObject("Webtables/Forms/text_practiceForm"), "Practice Form")
+2025-06-15 13:32:51.013 DEBUG testcase.Practice Form                   - 10: scrollToElement(findTestObject("Webtables/Forms/input_firstName"), 0)
+2025-06-15 13:32:51.030 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:32:51.442 DEBUG testcase.Practice Form                   - 11: setText(findTestObject("Webtables/Forms/input_firstName"), firstName)
+2025-06-15 13:32:52.395 DEBUG testcase.Practice Form                   - 12: setText(findTestObject("Webtables/Forms/input_lastName"), lastName)
+2025-06-15 13:32:56.632 DEBUG testcase.Practice Form                   - 13: setText(findTestObject("Webtables/Forms/input_email"), email)
+2025-06-15 13:32:57.680 DEBUG testcase.Practice Form                   - 14: statusGender = gender
+2025-06-15 13:32:57.683 DEBUG testcase.Practice Form                   - 15: radioButtonGender = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusGender + "']")
+2025-06-15 13:32:57.686 DEBUG testcase.Practice Form                   - 16: click(radioButtonGender)
+2025-06-15 13:32:58.131 DEBUG testcase.Practice Form                   - 17: setText(findTestObject("Webtables/Forms/input_mobileNumber"), mobileNumber)
+2025-06-15 13:32:58.958 DEBUG testcase.Practice Form                   - 18: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(CONTROL, "a"))
+2025-06-15 13:32:59.679 DEBUG testcase.Practice Form                   - 19: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), dateOfBirth)
+2025-06-15 13:33:00.492 DEBUG testcase.Practice Form                   - 20: sendKeys(findTestObject("Webtables/Forms/input_dateOfBirth"), Keys.chord(ENTER))
+2025-06-15 13:33:00.998 DEBUG testcase.Practice Form                   - 21: setText(findTestObject("Webtables/Forms/input_subjects"), subjects)
+2025-06-15 13:33:01.939 DEBUG testcase.Practice Form                   - 22: sendKeys(findTestObject("Webtables/Forms/input_subjects"), Keys.chord(ENTER))
+2025-06-15 13:33:02.514 DEBUG testcase.Practice Form                   - 23: statusHobbies = hobbies
+2025-06-15 13:33:02.515 DEBUG testcase.Practice Form                   - 24: checkboxHobbies = TestObject().addProperty("xpath", EQUALS, "//label[normalize-space(.)='" + statusHobbies + "']")
+2025-06-15 13:33:02.521 DEBUG testcase.Practice Form                   - 25: click(checkboxHobbies)
+2025-06-15 13:33:03.231 DEBUG testcase.Practice Form                   - 26: takeScreenshot()
+2025-06-15 13:33:03.757 DEBUG testcase.Practice Form                   - 27: scrollToElement(findTestObject("Webtables/Forms/button_pilihFile"), 0)
+2025-06-15 13:33:03.766 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:33:04.094 DEBUG testcase.Practice Form                   - 28: uploadFile(findTestObject("Webtables/Forms/button_pilihFile"), "C:/Users/ACER/Pictures/test.png")
+2025-06-15 13:33:04.499 DEBUG testcase.Practice Form                   - 29: setText(findTestObject("Webtables/Forms/input_currentAddress"), currentAddress)
+2025-06-15 13:33:05.356 DEBUG testcase.Practice Form                   - 30: sendKeys(findTestObject("Webtables/Forms/input_selectState"), Keys.chord(state, ENTER))
+2025-06-15 13:33:05.873 DEBUG testcase.Practice Form                   - 31: sendKeys(findTestObject("Webtables/Forms/input_selectCity"), Keys.chord(city, ENTER))
+2025-06-15 13:33:06.640 DEBUG testcase.Practice Form                   - 32: takeScreenshot()
+2025-06-15 13:33:07.325 DEBUG testcase.Practice Form                   - 33: click(findTestObject("Webtables/Forms/button_submit"))
+2025-06-15 13:33:07.741 DEBUG testcase.Practice Form                   - 34: verifyElementVisible(findTestObject("Webtables/Forms/verify_suksesSubmit"))
+2025-06-15 13:33:08.257 DEBUG testcase.Practice Form                   - 35: scrollToElement(findTestObject("Webtables/Forms/button_close"), 0)
+2025-06-15 13:33:08.284 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-15 13:33:08.572 DEBUG testcase.Practice Form                   - 36: click(findTestObject("Webtables/Forms/button_close"))
+2025-06-15 13:33:15.752 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Webtables/Forms/Practice Form
+2025-06-15 13:33:17.248 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-15 13:33:17.248 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Test Suite Forms
+2025-06-15 13:33:17.248 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -23,13 +23,13 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('Webtables/Elements/toolsQA'), 0)
+WebUI.waitForElementVisible(findTestObject('Webtables/toolsQA'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Webtables/Elements/toolsQA'))
+WebUI.verifyElementVisible(findTestObject('Webtables/toolsQA'))
 
-WebUI.scrollToElement(findTestObject('Webtables/Elements/element'), 0)
+WebUI.scrollToElement(findTestObject('Webtables/element'), 0)
 
-WebUI.click(findTestObject('Webtables/Elements/element'))
+WebUI.click(findTestObject('Webtables/element'))
 
 WebUI.click(findTestObject('Webtables/Elements/Text Box/textbox'))
 

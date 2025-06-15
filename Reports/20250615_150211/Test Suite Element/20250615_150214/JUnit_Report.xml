@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Element" time="138.707" tests="8" failures="0" errors="0">
+   <testsuite name="Test Suite Element" tests="8" failures="0" errors="0" time="138.707" skipped="0" timestamp="15-06-2025T15:02:39" hostname="ACER - DESKTOP-JTI6TQ0" id="Test Suites/Test Suite Element">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214"/>
+         <property name="logFiles" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\console0.log, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974606892.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974612183.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974616956.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974618579.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974629775.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974635884.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974643590.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974649160.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974652137.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974653763.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974655536.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974657185.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974658770.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974660183.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974661801.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974670157.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974677869.png, F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974697379.png"/>
+         <property name="hostName" value="ACER - DESKTOP-JTI6TQ0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Asep Asep"/>
+         <property name="hostAddress" value="192.168.219.10"/>
+         <property name="sessionId" value="245cd52635f16e9df8792efa6e7f45f3"/>
+         <property name="projectName" value="web-asep-afteroffice-katalon"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Webtables/Elements/Text Box" time="45.292" classname="Test Cases/Webtables/Elements/Text Box" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:02:42 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Text Box: Test Cases/Webtables/Elements/Text Box
+
+15-06-2025T15:02:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T15:02:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T15:02:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T15:02:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T15:02:54 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://demoqa.com/' successfully
+
+15-06-2025T15:03:06 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+15-06-2025T15:03:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-06-2025T15:03:07 - [MESSAGE][PASSED] - Current window maximized
+
+15-06-2025T15:03:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Webtables/toolsQA"), 0): Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:03:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/toolsQA")): Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/toolsQA' is visible
+
+15-06-2025T15:03:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/element"), 0): Scroll to object 'Object Repository/Webtables/element' successfully
+
+15-06-2025T15:03:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/element' successfully
+
+15-06-2025T15:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/element")): Object: 'Object Repository/Webtables/element' is clicked on
+
+15-06-2025T15:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/element' is clicked on
+
+15-06-2025T15:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Text Box/textbox")): Object: 'Object Repository/Webtables/Elements/Text Box/textbox' is clicked on
+
+15-06-2025T15:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Text Box/textbox' is clicked on
+
+15-06-2025T15:03:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Text Box/text_textbox"), "Text Box"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Text Box/text_textbox' are matched.
+
+15-06-2025T15:03:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Text Box/text_textbox' are matched.
+
+15-06-2025T15:03:17 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_fullName"), "Testing automation"): Text 'Testing automation' is set on object 'Object Repository/Webtables/Elements/Text Box/input_fullName'
+
+15-06-2025T15:03:19 - [MESSAGE][PASSED] - Text 'Testing automation' is set on object 'Object Repository/Webtables/Elements/Text Box/input_fullName'
+
+15-06-2025T15:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_email"), "testingautomation@gmail.com"): Text 'testingautomation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Text Box/input_email'
+
+15-06-2025T15:03:23 - [MESSAGE][PASSED] - Text 'testingautomation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Text Box/input_email'
+
+15-06-2025T15:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_currentAddress"), "Jakarta selatan"): Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_currentAddress'
+
+15-06-2025T15:03:24 - [MESSAGE][PASSED] - Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_currentAddress'
+
+15-06-2025T15:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Text Box/input_permanentAddress"), "Jakarta selatan"): Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_permanentAddress'
+
+15-06-2025T15:03:25 - [MESSAGE][PASSED] - Text 'Jakarta selatan' is set on object 'Object Repository/Webtables/Elements/Text Box/input_permanentAddress'
+
+15-06-2025T15:03:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Text Box/button_submit"), 0): Scroll to object 'Object Repository/Webtables/Elements/Text Box/button_submit' successfully
+
+15-06-2025T15:03:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Text Box/button_submit' successfully
+
+15-06-2025T15:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Text Box/button_submit")): Object: 'Object Repository/Webtables/Elements/Text Box/button_submit' is clicked on
+
+15-06-2025T15:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Text Box/button_submit' is clicked on
+
+15-06-2025T15:03:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974606892.png]]
+
+15-06-2025T15:03:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Text Box/verify_output")): Object 'Object Repository/Webtables/Elements/Text Box/verify_output' is visible
+
+15-06-2025T15:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Text Box/verify_output' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Check Box" time="4.872" classname="Test Cases/Webtables/Elements/Check Box" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:03:27 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Check Box: Test Cases/Webtables/Elements/Check Box
+
+15-06-2025T15:03:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Check Box/checkbox"), 0): Scroll to object 'Object Repository/Webtables/Elements/Check Box/checkbox' successfully
+
+15-06-2025T15:03:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Check Box/checkbox' successfully
+
+15-06-2025T15:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/checkbox")): Object: 'Object Repository/Webtables/Elements/Check Box/checkbox' is clicked on
+
+15-06-2025T15:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/checkbox' is clicked on
+
+15-06-2025T15:03:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Check Box/text_checkbox"), "Check Box"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Check Box/text_checkbox' are matched.
+
+15-06-2025T15:03:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Check Box/text_checkbox' are matched.
+
+15-06-2025T15:03:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Check Box/expand_plus"), 0): Scroll to object 'Object Repository/Webtables/Elements/Check Box/expand_plus' successfully
+
+15-06-2025T15:03:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Check Box/expand_plus' successfully
+
+15-06-2025T15:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/expand_plus")): Object: 'Object Repository/Webtables/Elements/Check Box/expand_plus' is clicked on
+
+15-06-2025T15:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/expand_plus' is clicked on
+
+15-06-2025T15:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Check Box/checkbox_documents")): Object: 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' is clicked on
+
+15-06-2025T15:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Check Box/checkbox_documents' is clicked on
+
+15-06-2025T15:03:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Check Box/verify_output"), 0): Scroll to object 'Object Repository/Webtables/Elements/Check Box/verify_output' successfully
+
+15-06-2025T15:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Check Box/verify_output' successfully
+
+15-06-2025T15:03:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Check Box/verify_output")): Object 'Object Repository/Webtables/Elements/Check Box/verify_output' is visible
+
+15-06-2025T15:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Check Box/verify_output' is visible
+
+15-06-2025T15:03:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974612183.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Radio Button" time="6.356" classname="Test Cases/Webtables/Elements/Radio Button" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:03:32 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Radio Button: Test Cases/Webtables/Elements/Radio Button
+
+15-06-2025T15:03:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Radio Button/radiobutton"), 0): Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton' successfully
+
+15-06-2025T15:03:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton' successfully
+
+15-06-2025T15:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton' is clicked on
+
+15-06-2025T15:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton' is clicked on
+
+15-06-2025T15:03:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Radio Button/text_radiobutton"), "Radio Button"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Radio Button/text_radiobutton' are matched.
+
+15-06-2025T15:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Radio Button/text_radiobutton' are matched.
+
+15-06-2025T15:03:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes"), 0): Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' successfully
+
+15-06-2025T15:03:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' successfully
+
+15-06-2025T15:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton_yes")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' is clicked on
+
+15-06-2025T15:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_yes' is clicked on
+
+15-06-2025T15:03:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/verify_outputSukses")): Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+15-06-2025T15:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+15-06-2025T15:03:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974616956.png]]
+
+15-06-2025T15:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Radio Button/radiobutton_impressiveRadio")): Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is clicked on
+
+15-06-2025T15:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Radio Button/radiobutton_impressiveRadio' is clicked on
+
+15-06-2025T15:03:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Radio Button/verify_outputSukses")): Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+15-06-2025T15:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Radio Button/verify_outputSukses' is visible
+
+15-06-2025T15:03:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974618579.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Web Tables" time="11.703" classname="Test Cases/Webtables/Elements/Web Tables" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:03:38 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Web Tables: Test Cases/Webtables/Elements/Web Tables
+
+15-06-2025T15:03:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Web Tables/webtables"), 0): Scroll to object 'Object Repository/Webtables/Elements/Web Tables/webtables' successfully
+
+15-06-2025T15:03:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Web Tables/webtables' successfully
+
+15-06-2025T15:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Web Tables/webtables")): Object: 'Object Repository/Webtables/Elements/Web Tables/webtables' is clicked on
+
+15-06-2025T15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Web Tables/webtables' is clicked on
+
+15-06-2025T15:03:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Web Tables/text_webTables"), "Web Tables"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Web Tables/text_webTables' are matched.
+
+15-06-2025T15:03:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Web Tables/text_webTables' are matched.
+
+15-06-2025T15:03:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Web Tables/button_add"), 0): Scroll to object 'Object Repository/Webtables/Elements/Web Tables/button_add' successfully
+
+15-06-2025T15:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Web Tables/button_add' successfully
+
+15-06-2025T15:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Web Tables/button_add")): Object: 'Object Repository/Webtables/Elements/Web Tables/button_add' is clicked on
+
+15-06-2025T15:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Web Tables/button_add' is clicked on
+
+15-06-2025T15:03:41 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_firstName"), "Testing"): Text 'Testing' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_firstName'
+
+15-06-2025T15:03:42 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_firstName'
+
+15-06-2025T15:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_lastName"), "Automation"): Text 'Automation' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_lastName'
+
+15-06-2025T15:03:43 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_lastName'
+
+15-06-2025T15:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_email"), "automation@gmail.com"): Text 'automation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_email'
+
+15-06-2025T15:03:44 - [MESSAGE][PASSED] - Text 'automation@gmail.com' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_email'
+
+15-06-2025T15:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_age"), "25"): Text '25' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_age'
+
+15-06-2025T15:03:45 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_age'
+
+15-06-2025T15:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_salary"), "10000000"): Text '10000000' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_salary'
+
+15-06-2025T15:03:46 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_salary'
+
+15-06-2025T15:03:46 - [TEST_STEP][PASSED] - setText(findTestObject("Webtables/Elements/Web Tables/input_department"), "IT"): Text 'IT' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_department'
+
+15-06-2025T15:03:47 - [MESSAGE][PASSED] - Text 'IT' is set on object 'Object Repository/Webtables/Elements/Web Tables/input_department'
+
+15-06-2025T15:03:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Web Tables/button_submit"), 0): Scroll to object 'Object Repository/Webtables/Elements/Web Tables/button_submit' successfully
+
+15-06-2025T15:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Web Tables/button_submit' successfully
+
+15-06-2025T15:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Web Tables/button_submit")): Object: 'Object Repository/Webtables/Elements/Web Tables/button_submit' is clicked on
+
+15-06-2025T15:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Web Tables/button_submit' is clicked on
+
+15-06-2025T15:03:48 - [TEST_STEP][PASSED] - clearText(findTestObject("Webtables/Elements/Web Tables/input_search"), STOP_ON_FAILURE): Text of object 'Object Repository/Webtables/Elements/Web Tables/input_search' is cleared
+
+15-06-2025T15:03:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Webtables/Elements/Web Tables/input_search' is cleared
+
+15-06-2025T15:03:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Webtables/Elements/Web Tables/input_search"), Keys.chord("Automation", ENTER)): Keys 'ENTER + Automation' sent to object: 'Object Repository/Webtables/Elements/Web Tables/input_search'
+
+15-06-2025T15:03:49 - [MESSAGE][PASSED] - Keys 'ENTER + Automation' sent to object: 'Object Repository/Webtables/Elements/Web Tables/input_search'
+
+15-06-2025T15:03:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974629775.png]]
+
+15-06-2025T15:03:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Web Tables/verify_output")): Object 'Object Repository/Webtables/Elements/Web Tables/verify_output' is visible
+
+15-06-2025T15:03:50 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Web Tables/verify_output' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Button" time="5.52" classname="Test Cases/Webtables/Elements/Button" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:03:50 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Button: Test Cases/Webtables/Elements/Button
+
+15-06-2025T15:03:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Button/button"), 0): Scroll to object 'Object Repository/Webtables/Elements/Button/button' successfully
+
+15-06-2025T15:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Button/button' successfully
+
+15-06-2025T15:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Button/button")): Object: 'Object Repository/Webtables/Elements/Button/button' is clicked on
+
+15-06-2025T15:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Button/button' is clicked on
+
+15-06-2025T15:03:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Button/text_button"), "Buttons"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/text_button' are matched.
+
+15-06-2025T15:03:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/text_button' are matched.
+
+15-06-2025T15:03:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Button/button_doubleClickMe"), 0): Scroll to object 'Object Repository/Webtables/Elements/Button/button_doubleClickMe' successfully
+
+15-06-2025T15:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Button/button_doubleClickMe' successfully
+
+15-06-2025T15:03:52 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Webtables/Elements/Button/button_doubleClickMe")): Object: 'Object Repository/Webtables/Elements/Button/button_doubleClickMe' is double clicked on
+
+15-06-2025T15:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Button/button_doubleClickMe' is double clicked on
+
+15-06-2025T15:03:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputDoubleClick"), "You have done a double click"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputDoubleClick' are matched.
+
+15-06-2025T15:03:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputDoubleClick' are matched.
+
+15-06-2025T15:03:53 - [TEST_STEP][PASSED] - rightClick(findTestObject("Webtables/Elements/Button/button_rightClickMe")): Object: 'Object Repository/Webtables/Elements/Button/button_rightClickMe' is right clicked on
+
+15-06-2025T15:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Button/button_rightClickMe' is right clicked on
+
+15-06-2025T15:03:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputRightClick"), "You have done a right click"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputRightClick' are matched.
+
+15-06-2025T15:03:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputRightClick' are matched.
+
+15-06-2025T15:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Button/button_clickMe")): Object: 'Object Repository/Webtables/Elements/Button/button_clickMe' is clicked on
+
+15-06-2025T15:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Button/button_clickMe' is clicked on
+
+15-06-2025T15:03:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Button/verify_outputClick"), "You have done a dynamic click"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputClick' are matched.
+
+15-06-2025T15:03:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Button/verify_outputClick' are matched.
+
+15-06-2025T15:03:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:03:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974635884.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Links" time="26.037" classname="Test Cases/Webtables/Elements/Links" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:03:56 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Links: Test Cases/Webtables/Elements/Links
+
+15-06-2025T15:03:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Links/links"), 0): Scroll to object 'Object Repository/Webtables/Elements/Links/links' successfully
+
+15-06-2025T15:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Links/links' successfully
+
+15-06-2025T15:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links")): Object: 'Object Repository/Webtables/Elements/Links/links' is clicked on
+
+15-06-2025T15:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links' is clicked on
+
+15-06-2025T15:03:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/text_links"), "Links"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/text_links' are matched.
+
+15-06-2025T15:03:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/text_links' are matched.
+
+15-06-2025T15:03:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Links/links_home"), 0): Scroll to object 'Object Repository/Webtables/Elements/Links/links_home' successfully
+
+15-06-2025T15:03:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:03:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Links/links_home' successfully
+
+15-06-2025T15:03:58 - [TEST_STEP][PASSED] - link = findTestObject("Webtables/Elements/Links/links_home"): null
+
+15-06-2025T15:03:58 - [TEST_STEP][PASSED] - element = findWebElement(link, 10): null
+
+15-06-2025T15:03:58 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+15-06-2025T15:03:58 - [TEST_STEP][PASSED] - build().perform(): null
+
+15-06-2025T15:03:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+15-06-2025T15:03:59 - [TEST_STEP][PASSED] - tabs = new java.util.ArrayList(driver.getWindowHandles()): null
+
+15-06-2025T15:03:59 - [TEST_STEP][PASSED] - switchTo().window(tabs[1]): null
+
+15-06-2025T15:03:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), 0): Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is present
+
+15-06-2025T15:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is present
+
+15-06-2025T15:04:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is visible
+
+15-06-2025T15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is visible
+
+15-06-2025T15:04:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974643590.png]]
+
+15-06-2025T15:04:03 - [TEST_STEP][PASSED] - driver.close(): null
+
+15-06-2025T15:04:04 - [TEST_STEP][PASSED] - switchTo().window(tabs[0]): null
+
+15-06-2025T15:04:04 - [TEST_STEP][PASSED] - link1 = findTestObject("Webtables/Elements/Links/links_homeDynamic"): null
+
+15-06-2025T15:04:04 - [TEST_STEP][PASSED] - element1 = findWebElement(link1, 10): null
+
+15-06-2025T15:04:04 - [TEST_STEP][PASSED] - build().perform(): null
+
+15-06-2025T15:04:05 - [TEST_STEP][PASSED] - tabs1 = new java.util.ArrayList(driver.getWindowHandles()): null
+
+15-06-2025T15:04:05 - [TEST_STEP][PASSED] - switchTo().window(tabs1[1]): null
+
+15-06-2025T15:04:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), 0): Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is present
+
+15-06-2025T15:04:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is present
+
+15-06-2025T15:04:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Links/verify_outputLinkHome"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is visible
+
+15-06-2025T15:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Links/verify_outputLinkHome' is visible
+
+15-06-2025T15:04:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974649160.png]]
+
+15-06-2025T15:04:09 - [TEST_STEP][PASSED] - driver.close(): null
+
+15-06-2025T15:04:09 - [TEST_STEP][PASSED] - switchTo().window(tabs[0]): null
+
+15-06-2025T15:04:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Links/links_created"), 0): Scroll to object 'Object Repository/Webtables/Elements/Links/links_created' successfully
+
+15-06-2025T15:04:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Links/links_created' successfully
+
+15-06-2025T15:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_created")): Object: 'Object Repository/Webtables/Elements/Links/links_created' is clicked on
+
+15-06-2025T15:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_created' is clicked on
+
+15-06-2025T15:04:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 201 and status text Created"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974652137.png]]
+
+15-06-2025T15:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_noContent")): Object: 'Object Repository/Webtables/Elements/Links/links_noContent' is clicked on
+
+15-06-2025T15:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_noContent' is clicked on
+
+15-06-2025T15:04:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 204 and status text No Content"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974653763.png]]
+
+15-06-2025T15:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_moved")): Object: 'Object Repository/Webtables/Elements/Links/links_moved' is clicked on
+
+15-06-2025T15:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_moved' is clicked on
+
+15-06-2025T15:04:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 301 and status text Moved Permanently"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974655536.png]]
+
+15-06-2025T15:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_badRequest")): Object: 'Object Repository/Webtables/Elements/Links/links_badRequest' is clicked on
+
+15-06-2025T15:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_badRequest' is clicked on
+
+15-06-2025T15:04:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 400 and status text Bad Request"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974657185.png]]
+
+15-06-2025T15:04:17 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_unauthorized")): Object: 'Object Repository/Webtables/Elements/Links/links_unauthorized' is clicked on
+
+15-06-2025T15:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_unauthorized' is clicked on
+
+15-06-2025T15:04:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 401 and status text Unauthorized"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974658770.png]]
+
+15-06-2025T15:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_forbidden")): Object: 'Object Repository/Webtables/Elements/Links/links_forbidden' is clicked on
+
+15-06-2025T15:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_forbidden' is clicked on
+
+15-06-2025T15:04:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 403 and status text Forbidden"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974660183.png]]
+
+15-06-2025T15:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Links/links_notFound")): Object: 'Object Repository/Webtables/Elements/Links/links_notFound' is clicked on
+
+15-06-2025T15:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Links/links_notFound' is clicked on
+
+15-06-2025T15:04:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Links/verify_response"), "Link has responded with staus 404 and status text Not Found"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Links/verify_response' are matched.
+
+15-06-2025T15:04:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974661801.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Broken Links - Images" time="15.946" classname="Test Cases/Webtables/Elements/Broken Links - Images" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:04:22 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Broken Links - Images: Test Cases/Webtables/Elements/Broken Links - Images
+
+15-06-2025T15:04:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Broken Links - Images/brokenLinksImages"), 0): Scroll to object 'Object Repository/Webtables/Elements/Broken Links - Images/brokenLinksImages' successfully
+
+15-06-2025T15:04:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Broken Links - Images/brokenLinksImages' successfully
+
+15-06-2025T15:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Broken Links - Images/brokenLinksImages")): Object: 'Object Repository/Webtables/Elements/Broken Links - Images/brokenLinksImages' is clicked on
+
+15-06-2025T15:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Broken Links - Images/brokenLinksImages' is clicked on
+
+15-06-2025T15:04:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Broken Links - Images/text_brokenLinksImages"), "Broken Links - Images"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Broken Links - Images/text_brokenLinksImages' are matched.
+
+15-06-2025T15:04:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Broken Links - Images/text_brokenLinksImages' are matched.
+
+15-06-2025T15:04:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), 0): Scroll to object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' successfully
+
+15-06-2025T15:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' successfully
+
+15-06-2025T15:04:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), 0): Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' is present
+
+15-06-2025T15:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' is present
+
+15-06-2025T15:04:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/img_validImage"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' is visible
+
+15-06-2025T15:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_validImage' is visible
+
+15-06-2025T15:04:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/img_brokenImage"), 0): Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_brokenImage' is present
+
+15-06-2025T15:04:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_brokenImage' is present
+
+15-06-2025T15:04:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/img_brokenImage"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_brokenImage' is visible
+
+15-06-2025T15:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/img_brokenImage' is visible
+
+15-06-2025T15:04:25 - [TEST_STEP][PASSED] - link = findTestObject("Webtables/Elements/Broken Links - Images/link_validLink"): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - element = findWebElement(link, 10): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - build().perform(): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - tabs = new java.util.ArrayList(driver.getWindowHandles()): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - switchTo().window(tabs[1]): null
+
+15-06-2025T15:04:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputLinkValid"), 0): Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputLinkValid' is present
+
+15-06-2025T15:04:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputLinkValid' is present
+
+15-06-2025T15:04:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputLinkValid"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputLinkValid' is visible
+
+15-06-2025T15:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputLinkValid' is visible
+
+15-06-2025T15:04:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974670157.png]]
+
+15-06-2025T15:04:30 - [TEST_STEP][PASSED] - driver.close(): null
+
+15-06-2025T15:04:30 - [TEST_STEP][PASSED] - switchTo().window(tabs[0]): null
+
+15-06-2025T15:04:30 - [TEST_STEP][PASSED] - link1 = findTestObject("Webtables/Elements/Broken Links - Images/link_brokenLink"): null
+
+15-06-2025T15:04:30 - [TEST_STEP][PASSED] - element1 = findWebElement(link1, 10): null
+
+15-06-2025T15:04:31 - [TEST_STEP][PASSED] - build().perform(): null
+
+15-06-2025T15:04:31 - [TEST_STEP][PASSED] - tabs1 = new java.util.ArrayList(driver.getWindowHandles()): null
+
+15-06-2025T15:04:31 - [TEST_STEP][PASSED] - switchTo().window(tabs1[1]): null
+
+15-06-2025T15:04:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputBrokenLink"), 0): Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputBrokenLink' is present
+
+15-06-2025T15:04:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputBrokenLink' is present
+
+15-06-2025T15:04:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Broken Links - Images/verify_outputBrokenLink"), STOP_ON_FAILURE): Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputBrokenLink' is visible
+
+15-06-2025T15:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Broken Links - Images/verify_outputBrokenLink' is visible
+
+15-06-2025T15:04:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974677869.png]]
+
+15-06-2025T15:04:38 - [TEST_STEP][PASSED] - driver.close(): null
+
+15-06-2025T15:04:38 - [TEST_STEP][PASSED] - switchTo().window(tabs[0]): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Webtables/Elements/Upload and Download" time="19.626" classname="Test Cases/Webtables/Elements/Upload and Download" status="PASSED">
+         <system-out><![CDATA[15-06-2025T15:04:38 - [TEST_CASE][PASSED] - Test Cases/Webtables/Elements/Upload and Download: Test Cases/Webtables/Elements/Upload and Download
+
+15-06-2025T15:04:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Upload and Download/uploadDanDownload"), 0): Scroll to object 'Object Repository/Webtables/Elements/Upload and Download/uploadDanDownload' successfully
+
+15-06-2025T15:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Upload and Download/uploadDanDownload' successfully
+
+15-06-2025T15:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Upload and Download/uploadDanDownload")): Object: 'Object Repository/Webtables/Elements/Upload and Download/uploadDanDownload' is clicked on
+
+15-06-2025T15:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Upload and Download/uploadDanDownload' is clicked on
+
+15-06-2025T15:04:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Webtables/Elements/Upload and Download/text_uploadDanDownload"), "Upload and Download"): Actual text and expected text of test object 'Object Repository/Webtables/Elements/Upload and Download/text_uploadDanDownload' are matched.
+
+15-06-2025T15:04:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Webtables/Elements/Upload and Download/text_uploadDanDownload' are matched.
+
+15-06-2025T15:04:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Webtables/Elements/Upload and Download/button_download"), 0): Scroll to object 'Object Repository/Webtables/Elements/Upload and Download/button_download' successfully
+
+15-06-2025T15:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T15:04:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Webtables/Elements/Upload and Download/button_download' successfully
+
+15-06-2025T15:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Webtables/Elements/Upload and Download/button_download")): Object: 'Object Repository/Webtables/Elements/Upload and Download/button_download' is clicked on
+
+15-06-2025T15:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Webtables/Elements/Upload and Download/button_download' is clicked on
+
+15-06-2025T15:04:41 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-06-2025T15:04:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - downloadPath = "C:/Users/ACER/Downloads": null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - fileName = "sampleFile.jpeg": null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - fullPath = downloadPath + "\" + fileName: null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - downloadedFile = new java.io.File(fullPath): null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - if (downloadedFile.exists()): null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - println("File berhasil didownload: " + fileName): null
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Webtables/Elements/Upload and Download/button_pilihFile"), "C:\Users\ACER\Pictures\test.png"): File 'C:\Users\ACER\Pictures\test.png' sent to object: 'Object Repository/Webtables/Elements/Upload and Download/button_pilihFile'
+
+15-06-2025T15:04:56 - [MESSAGE][PASSED] - File 'C:\Users\ACER\Pictures\test.png' sent to object: 'Object Repository/Webtables/Elements/Upload and Download/button_pilihFile'
+
+15-06-2025T15:04:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webtables/Elements/Upload and Download/verify_output")): Object 'Object Repository/Webtables/Elements/Upload and Download/verify_output' is visible
+
+15-06-2025T15:04:57 - [MESSAGE][PASSED] - Object 'Object Repository/Webtables/Elements/Upload and Download/verify_output' is visible
+
+15-06-2025T15:04:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+15-06-2025T15:04:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon Studio\\web-asep-afteroffice-katalon\\Reports\\20250615_150211\\Test Suite Element\\20250615_150214\\1749974697379.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-06-2025T15:02:39 - [TEST_SUITE][PASSED] - Test Suite Element: Test Cases/Webtables/Elements/Upload and Download]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

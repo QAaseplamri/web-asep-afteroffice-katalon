@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Forms,Chrome 137.0.7151.70,,,15-06-2025 13:30:02,15-06-2025 13:33:17,3m - 14.920s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Practice Form,Chrome 137.0.7151.70,,,15-06-2025 13:30:04,15-06-2025 13:31:30,1m - 26.484s,PASSED
+"DATA BINDING - {""firstName"":""Indra"",""lastName"":""Saputro"",""gender"":""Male"",""hobbies"":""Sports"",""city"":""Delhi"",""mobileNumber"":""1000000001"",""subjects"":""Computer Science"",""dateOfBirth"":""12 12 1999"",""state"":""NCR"",""email"":""indrasaputro@gmail.com"",""currentAddress"":""Jakarta Selatan""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.70,,,15-06-2025 13:30:09,15-06-2025 13:30:18,9.303s,PASSED
+navigateToUrl(url),Chrome 137.0.7151.70,,,15-06-2025 13:30:18,15-06-2025 13:30:35,16.773s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,15-06-2025 13:30:35,15-06-2025 13:30:35,0.383s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/toolsQA""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:30:35,15-06-2025 13:30:39,3.501s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/toolsQA""))",Chrome 137.0.7151.70,,,15-06-2025 13:30:39,15-06-2025 13:30:39,0.363s,PASSED
+"scrollToElement(findTestObject(""Webtables/forms""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:30:39,15-06-2025 13:30:40,0.413s,PASSED
+"click(findTestObject(""Webtables/forms""))",Chrome 137.0.7151.70,,,15-06-2025 13:30:40,15-06-2025 13:30:40,0.793s,PASSED
+"click(findTestObject(""Webtables/Forms/practiceForm""))",Chrome 137.0.7151.70,,,15-06-2025 13:30:40,15-06-2025 13:30:43,2.551s,PASSED
+"verifyElementText(findTestObject(""Webtables/Forms/text_practiceForm""), ""Practice Form"")",Chrome 137.0.7151.70,,,15-06-2025 13:30:43,15-06-2025 13:30:44,0.850s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:30:44,15-06-2025 13:30:44,0.437s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",Chrome 137.0.7151.70,,,15-06-2025 13:30:44,15-06-2025 13:30:50,5.942s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",Chrome 137.0.7151.70,,,15-06-2025 13:30:50,15-06-2025 13:30:52,1.586s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",Chrome 137.0.7151.70,,,15-06-2025 13:30:52,15-06-2025 13:30:53,1.047s,PASSED
+statusGender = gender,Chrome 137.0.7151.70,,,15-06-2025 13:30:53,15-06-2025 13:30:53,0.009s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:30:53,15-06-2025 13:30:53,0.030s,PASSED
+click(radioButtonGender),Chrome 137.0.7151.70,,,15-06-2025 13:30:53,15-06-2025 13:30:53,0.570s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",Chrome 137.0.7151.70,,,15-06-2025 13:30:53,15-06-2025 13:30:54,0.986s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",Chrome 137.0.7151.70,,,15-06-2025 13:30:54,15-06-2025 13:30:55,0.761s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",Chrome 137.0.7151.70,,,15-06-2025 13:30:55,15-06-2025 13:30:56,0.784s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:30:56,15-06-2025 13:30:56,0.521s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",Chrome 137.0.7151.70,,,15-06-2025 13:30:56,15-06-2025 13:30:57,1.052s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:30:57,15-06-2025 13:30:58,0.687s,PASSED
+statusHobbies = hobbies,Chrome 137.0.7151.70,,,15-06-2025 13:30:58,15-06-2025 13:30:58,0.007s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:30:58,15-06-2025 13:30:58,0.015s,PASSED
+click(checkboxHobbies),Chrome 137.0.7151.70,,,15-06-2025 13:30:58,15-06-2025 13:30:59,0.677s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:30:59,15-06-2025 13:31:00,0.792s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:31:00,15-06-2025 13:31:00,0.354s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",Chrome 137.0.7151.70,,,15-06-2025 13:31:00,15-06-2025 13:31:00,0.411s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",Chrome 137.0.7151.70,,,15-06-2025 13:31:00,15-06-2025 13:31:01,0.849s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:31:01,15-06-2025 13:31:02,0.466s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:31:02,15-06-2025 13:31:02,0.657s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:31:02,15-06-2025 13:31:03,0.823s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:03,15-06-2025 13:31:04,0.583s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:04,15-06-2025 13:31:04,0.474s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:31:04,15-06-2025 13:31:05,0.348s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:05,15-06-2025 13:31:30,25.724s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Practice Form,Chrome 137.0.7151.70,,,15-06-2025 13:31:31,15-06-2025 13:32:30,59.159s,PASSED
+"DATA BINDING - {""firstName"":""Mirna"",""lastName"":""Burhan"",""gender"":""Female"",""hobbies"":""Reading"",""city"":""Karnal"",""mobileNumber"":""1000000002"",""subjects"":""Accounting"",""dateOfBirth"":""13 12 1999"",""state"":""Haryana"",""email"":""budiburhan@gmail.com"",""currentAddress"":""Jakarta Barat""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.70,,,15-06-2025 13:31:31,15-06-2025 13:31:37,5.602s,PASSED
+navigateToUrl(url),Chrome 137.0.7151.70,,,15-06-2025 13:31:37,15-06-2025 13:31:45,8.334s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,15-06-2025 13:31:45,15-06-2025 13:31:45,0.230s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/toolsQA""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:31:45,15-06-2025 13:31:47,2.128s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/toolsQA""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:47,15-06-2025 13:31:48,0.463s,PASSED
+"scrollToElement(findTestObject(""Webtables/forms""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:31:48,15-06-2025 13:31:48,0.412s,PASSED
+"click(findTestObject(""Webtables/forms""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:48,15-06-2025 13:31:49,0.761s,PASSED
+"click(findTestObject(""Webtables/Forms/practiceForm""))",Chrome 137.0.7151.70,,,15-06-2025 13:31:49,15-06-2025 13:31:52,2.902s,PASSED
+"verifyElementText(findTestObject(""Webtables/Forms/text_practiceForm""), ""Practice Form"")",Chrome 137.0.7151.70,,,15-06-2025 13:31:52,15-06-2025 13:31:53,0.758s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:31:53,15-06-2025 13:31:54,0.924s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",Chrome 137.0.7151.70,,,15-06-2025 13:31:54,15-06-2025 13:32:00,6.783s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",Chrome 137.0.7151.70,,,15-06-2025 13:32:00,15-06-2025 13:32:02,1.043s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",Chrome 137.0.7151.70,,,15-06-2025 13:32:02,15-06-2025 13:32:03,1.067s,PASSED
+statusGender = gender,Chrome 137.0.7151.70,,,15-06-2025 13:32:03,15-06-2025 13:32:03,0.003s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:32:03,15-06-2025 13:32:03,0.003s,PASSED
+click(radioButtonGender),Chrome 137.0.7151.70,,,15-06-2025 13:32:03,15-06-2025 13:32:03,0.621s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",Chrome 137.0.7151.70,,,15-06-2025 13:32:03,15-06-2025 13:32:04,0.876s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:04,15-06-2025 13:32:05,0.736s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",Chrome 137.0.7151.70,,,15-06-2025 13:32:05,15-06-2025 13:32:06,1.232s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:32:06,15-06-2025 13:32:07,1.252s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",Chrome 137.0.7151.70,,,15-06-2025 13:32:07,15-06-2025 13:32:08,1.090s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:32:08,15-06-2025 13:32:09,0.599s,PASSED
+statusHobbies = hobbies,Chrome 137.0.7151.70,,,15-06-2025 13:32:09,15-06-2025 13:32:09,0.001s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:32:09,15-06-2025 13:32:09,0.002s,PASSED
+click(checkboxHobbies),Chrome 137.0.7151.70,,,15-06-2025 13:32:09,15-06-2025 13:32:10,0.636s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:32:10,15-06-2025 13:32:11,0.873s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:32:11,15-06-2025 13:32:11,0.557s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",Chrome 137.0.7151.70,,,15-06-2025 13:32:11,15-06-2025 13:32:12,0.493s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",Chrome 137.0.7151.70,,,15-06-2025 13:32:12,15-06-2025 13:32:13,1.047s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:32:13,15-06-2025 13:32:13,0.669s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:32:13,15-06-2025 13:32:14,0.735s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:32:14,15-06-2025 13:32:15,0.963s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:15,15-06-2025 13:32:16,1.099s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:16,15-06-2025 13:32:16,0.353s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:32:16,15-06-2025 13:32:17,0.345s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:17,15-06-2025 13:32:30,13.279s,PASSED
+,,,,,,,
+Test Cases/Webtables/Forms/Practice Form,Chrome 137.0.7151.70,,,15-06-2025 13:32:31,15-06-2025 13:33:15,44.672s,PASSED
+"DATA BINDING - {""firstName"":""Agus"",""lastName"":""Sembiring"",""gender"":""Other"",""hobbies"":""Music"",""city"":""Jaipur"",""mobileNumber"":""1000000003"",""subjects"":""Biology"",""dateOfBirth"":""14 12 1999"",""state"":""Rajasthan"",""email"":""agussembiring@gmail.com"",""currentAddress"":""Jakarta Utara""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.70,,,15-06-2025 13:32:31,15-06-2025 13:32:36,5.092s,PASSED
+navigateToUrl(url),Chrome 137.0.7151.70,,,15-06-2025 13:32:36,15-06-2025 13:32:45,8.713s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,15-06-2025 13:32:45,15-06-2025 13:32:45,0.343s,PASSED
+"waitForElementVisible(findTestObject(""Webtables/toolsQA""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:32:45,15-06-2025 13:32:46,1.151s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/toolsQA""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:46,15-06-2025 13:32:46,0.324s,PASSED
+"scrollToElement(findTestObject(""Webtables/forms""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:32:46,15-06-2025 13:32:47,0.335s,PASSED
+"click(findTestObject(""Webtables/forms""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:47,15-06-2025 13:32:47,0.678s,PASSED
+"click(findTestObject(""Webtables/Forms/practiceForm""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:47,15-06-2025 13:32:50,2.442s,PASSED
+"verifyElementText(findTestObject(""Webtables/Forms/text_practiceForm""), ""Practice Form"")",Chrome 137.0.7151.70,,,15-06-2025 13:32:50,15-06-2025 13:32:51,0.728s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/input_firstName""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:32:51,15-06-2025 13:32:51,0.428s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_firstName""), firstName)",Chrome 137.0.7151.70,,,15-06-2025 13:32:51,15-06-2025 13:32:52,0.952s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_lastName""), lastName)",Chrome 137.0.7151.70,,,15-06-2025 13:32:52,15-06-2025 13:32:56,4.237s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_email""), email)",Chrome 137.0.7151.70,,,15-06-2025 13:32:56,15-06-2025 13:32:57,1.049s,PASSED
+statusGender = gender,Chrome 137.0.7151.70,,,15-06-2025 13:32:57,15-06-2025 13:32:57,0.001s,PASSED
+"radioButtonGender = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusGender + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:32:57,15-06-2025 13:32:57,0.002s,PASSED
+click(radioButtonGender),Chrome 137.0.7151.70,,,15-06-2025 13:32:57,15-06-2025 13:32:58,0.446s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_mobileNumber""), mobileNumber)",Chrome 137.0.7151.70,,,15-06-2025 13:32:58,15-06-2025 13:32:58,0.826s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(CONTROL, ""a""))",Chrome 137.0.7151.70,,,15-06-2025 13:32:58,15-06-2025 13:32:59,0.720s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), dateOfBirth)",Chrome 137.0.7151.70,,,15-06-2025 13:32:59,15-06-2025 13:33:00,0.812s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_dateOfBirth""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:33:00,15-06-2025 13:33:00,0.506s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_subjects""), subjects)",Chrome 137.0.7151.70,,,15-06-2025 13:33:01,15-06-2025 13:33:01,0.940s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_subjects""), Keys.chord(ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:33:01,15-06-2025 13:33:02,0.574s,PASSED
+statusHobbies = hobbies,Chrome 137.0.7151.70,,,15-06-2025 13:33:02,15-06-2025 13:33:02,0.001s,PASSED
+"checkboxHobbies = TestObject().addProperty(""xpath"", EQUALS, ""//label[normalize-space(.)='"" + statusHobbies + ""']"")",Chrome 137.0.7151.70,,,15-06-2025 13:33:02,15-06-2025 13:33:02,0.006s,PASSED
+click(checkboxHobbies),Chrome 137.0.7151.70,,,15-06-2025 13:33:02,15-06-2025 13:33:03,0.709s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:33:03,15-06-2025 13:33:03,0.525s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_pilihFile""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:33:03,15-06-2025 13:33:04,0.338s,PASSED
+"uploadFile(findTestObject(""Webtables/Forms/button_pilihFile""), ""C:/Users/ACER/Pictures/test.png"")",Chrome 137.0.7151.70,,,15-06-2025 13:33:04,15-06-2025 13:33:04,0.405s,PASSED
+"setText(findTestObject(""Webtables/Forms/input_currentAddress""), currentAddress)",Chrome 137.0.7151.70,,,15-06-2025 13:33:04,15-06-2025 13:33:05,0.855s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectState""), Keys.chord(state, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:33:05,15-06-2025 13:33:05,0.516s,PASSED
+"sendKeys(findTestObject(""Webtables/Forms/input_selectCity""), Keys.chord(city, ENTER))",Chrome 137.0.7151.70,,,15-06-2025 13:33:05,15-06-2025 13:33:06,0.767s,PASSED
+takeScreenshot(),Chrome 137.0.7151.70,,,15-06-2025 13:33:06,15-06-2025 13:33:07,0.683s,PASSED
+"click(findTestObject(""Webtables/Forms/button_submit""))",Chrome 137.0.7151.70,,,15-06-2025 13:33:07,15-06-2025 13:33:07,0.416s,PASSED
+"verifyElementVisible(findTestObject(""Webtables/Forms/verify_suksesSubmit""))",Chrome 137.0.7151.70,,,15-06-2025 13:33:07,15-06-2025 13:33:08,0.515s,PASSED
+"scrollToElement(findTestObject(""Webtables/Forms/button_close""), 0)",Chrome 137.0.7151.70,,,15-06-2025 13:33:08,15-06-2025 13:33:08,0.314s,PASSED
+"click(findTestObject(""Webtables/Forms/button_close""))",Chrome 137.0.7151.70,,,15-06-2025 13:33:08,15-06-2025 13:33:15,7.171s,PASSED
